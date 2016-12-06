@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+  text-align: center;
+}
+
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(../../img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-seven span {
+  font-size: 0.34rem;
+  color: #fff;
+  line-height: 1rem;
+  display: block;
+}
+
+.success {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+}
+
+.success .wuxing {
+  width: 100%;
+  height: 1.63rem;
+  border-bottom: 1px solid #999;
+  position: relative;
+}
+
+.success .wuxing .images-box {
+  width: 5.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 0.82rem;
+}
+
+.success .wuxing .images-box .images {
+  width: 0.82rem;
+  height: 0.82rem;
+  float: left;
+  background: url(../../img/1.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 0.3rem;
+}
+
+.success .text {
+  width: 92%;
+  height: 3.3rem;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  margin-top: 0.4rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ddd;
+  position: relative;
+  font-size: 0.22rem;
+  padding-left: 0.2rem;
+  padding-top: 0.1rem;
+  color: #999;
+}
+
+.success .text #wenben {
+  width: 95%;
+  height: 95%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.1rem;
+}
+
+.success .fabu-btn {
+  width: 3.2rem;
+  height: 1rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background: url(../../img/25.png) no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.32rem;
+}
+
+.success .fabu-btn a {
+  color: #fff;
+}
+
+.success .jianpan {
+  width: 100%;
+  height: 4.3rem;
+  background: url(../../img/16.png) no-repeat;
+  background-size: 100% auto;
+  position: fixed;
+  left: 0;
+  bottom: -4.5rem;
+  opacity: 1;
+  animation: all 0.5s ease-in-out;
+}
+
+.success .jp-active {
+  bottom: 0;
+  opacity: 1;
+}
+
+.success .heizz {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  display: none;
+}
+
+.success .heizz-active {
+  display: block;
+}
+
+.success .success {
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../img/success.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 70%;
+  height: auto;
+  position: fixed;
+  left: 0rem;
+  top: 4rem;
+  display: none;
+}
+
+.success .success #tijiao {
+  position: absolute;
+  left: 1.05rem;
+  top: 2.45rem;
+  color: #28DD8B;
+}
+#tijiao a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.success .success #quxiao {
+  position: absolute;
+  right: 1.1rem;
+  top: 2.45rem;
+  color: #fff;
+}
+
+.success .success-active {
+  display: block;
+}

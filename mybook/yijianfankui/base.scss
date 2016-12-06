@@ -1,0 +1,64 @@
+$d-list: 120px,360px,375px,412px,414px;
+html{
+    font-size: 100px;
+}
+
+body{
+    font-size: 16px;   
+}
+$design-size:750px;
+@each $w in $d-list{
+    @media screen and (min-width:#{$w}){
+        html{
+            font-size: 100px * $w /$design-size;
+        }
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "microsoft yahei";
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+/*垂直居中vertical*/
+@mixin vertical {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*水平居中level*/
+@mixin level {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*全居中center*/
+@mixin center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@mixin img {
+    max-width: 100%;
+    max-height: 100%;
+    @include center;
+}
+
+
+/*蓝色：$maincolor*/
+$maincolor:#29a6dc;
+$imgpath:"../img";

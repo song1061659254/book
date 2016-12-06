@@ -1,0 +1,220 @@
+/*垂直居中vertical*/
+@mixin vertical {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*水平居中level*/
+@mixin level {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*全居中center*/
+@mixin center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@mixin img {
+    max-width: 100%;
+    max-height: 100%;
+    @include center;
+}
+
+/*蓝色：$maincolor*/
+$maincolor:#29a6dc;
+$imgpath:"../img";
+
+#header-seven{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor; 
+//  position: relative;  
+    text-align: center;
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(../../img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+    span{
+        font-size: 0.34rem;
+        color: #fff;
+        line-height: 1rem;
+        display: block;
+       
+    }
+     
+}
+
+.manageshu{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .zhangjie{
+        width: 100%;
+        .shuping{
+            width: 100%;
+            height: 1.3rem;
+            box-sizing: border-box;
+            padding: 0.1rem 0.3rem;
+            border-bottom: 1px dashed #666;
+            padding-top: 0.2rem;
+            margin-top: 0;
+            position: relative;
+            .span-a{
+                display: block;
+                width: 0.34rem;
+                height: 0.34rem;
+                position: absolute;
+                right: 0.2rem;
+                top: 0.45rem;
+                background: url(../../img/green.png) no-repeat;
+                background-size:100% auto ;
+                display: none;
+            }
+            b{
+              width: 0.6rem;
+                height: 0.7rem;
+                background: url(../../img/2.png) no-repeat;
+                background-size: 100% auto;
+                float: left;
+                margin-right: 0.2rem;
+                margin-top: 0.1rem;
+            }
+            .big{
+                font-size: 0.25rem;
+                font-weight: bold;
+                float: left;
+                line-height: 0.2rem;
+                color: #333;
+            }
+            p{
+                font-size: 0.15rem;
+                left: 1.1rem;
+                top: 0.45rem;
+                color: #666;
+            }
+            .shijian{
+                height: 0.38rem;
+                position: absolute;
+                left: 0.5rem;
+                top: 0.9rem;
+                width: 100%;
+                .left-shijian{
+                    float: left;
+                    width: 2rem;
+                    height: 100%;
+                    b{
+                        width: 0.2rem;
+                        height: 0.2rem;
+                        background: url(../../img/26.png) no-repeat;
+                        background-size:100% auto ;
+                        float: left;                       
+                    }
+                    span{
+                        font-size: 0.15rem;
+                        float: left;
+                        color: #666;
+                    }
+                }
+                .right-shijian{
+                    float: right;
+                    width: 2.5rem;
+                    height: 100%;
+                    b{
+                        width: 0.3rem;
+                        height: 0.3rem;
+                        background: url(../../img/7.png) no-repeat;
+                        background-size:100% auto ;
+                        float: left;
+                        
+                    }
+                    span{
+                        font-size: 0.15rem;
+                        float: left;
+                        color: #666;
+                    }
+                }
+            }
+        }
+        
+        .active{
+            background: url(../../img/green6.png) no-repeat;
+            background-size:100% 100% ;
+            border-bottom: 0;
+            b{
+                width: 0;
+                height: 0;
+            }
+            .big{
+                color: #fff;
+            }
+            p{
+                left: 0.5rem;
+                color: #fff;
+                font-size: 0.12rem;
+            }
+            .span-a{
+                display: block;
+            }
+           
+            .shijian{
+                height: 0.38rem;
+                position: absolute;
+                left: 0.5rem;
+                top: 0.9rem;
+                width: 100%;
+                .left-shijian{
+                    float: left;
+                    width: 2rem;
+                    height: 100%;
+                    b{
+                        width: 0.2rem;
+                        height: 0.2rem;
+                        background: url(../../img/090.png) no-repeat;
+                        background-size:100% auto ;
+                        float: left;                       
+                    }
+                    span{
+                        font-size: 0.15rem;
+                        float: left;
+                        color: #fff;
+                    }
+                }
+                .right-shijian{
+                    float: right;
+                    width: 2.5rem;
+                    height: 100%;
+                    b{
+                        width: 0.3rem;
+                        height: 0.3rem;
+                        background: url(../../img/87.png) no-repeat;
+                        background-size:100% auto ;
+                        float: left;
+                        
+                    }
+                    span{
+                        font-size: 0.15rem;
+                        float: left;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}

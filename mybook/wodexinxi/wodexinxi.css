@@ -1,0 +1,346 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#wodexinxi .header {
+  height: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+#wodexinxi .header #header-four {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#wodexinxi .header #header-four .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#wodexinxi .header #header-four .title {
+  font-size: 0.4rem;
+  line-height: 0.4rem;
+  color: #fff;
+  width: 70%;
+  height: 0.4rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-size: 14px;
+}
+
+#wodexinxi .header #header-four .en {
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  font-weight: bold;
+  color: #9ddffd;
+  width: 70%;
+  height: 0.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  text-align: center;
+}
+
+#wodexinxi .xuanze {
+  width: 80%;
+  height: 1rem;
+  margin: 0 auto;
+  background: url(img/xinxi.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .xuanze .xu {
+  width: 50%;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+}
+
+#wodexinxi .xuanze .xu .zhong {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+
+#wodexinxi .xuanze .xu .yin {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 4px;
+}
+
+#wodexinxi .xuanze .xu.active {
+  background: url(img/xuanze.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .xuanze .xu.xitong {
+  float: left;
+}
+
+#wodexinxi .xuanze .xu.wode {
+  float: right;
+}
+
+#wodexinxi .mainer {
+  width: 93%;
+  margin: 0 auto;
+  height: 7rem;
+  -webkit-box-shadow: #666 0px 0px 10px;  
+  -moz-box-shadow: #666 0px 0px 10px;  
+  box-shadow: #666 0px 0px 10px; 
+}
+
+#wodexinxi .mainer .main2 {
+  display: none;
+}
+
+#wodexinxi .mainer .main {
+  width: 100%;
+  height: 6rem;
+}
+
+#wodexinxi .mainer .main .lis {
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px dashed #444;
+}
+
+#wodexinxi .mainer .main .lis .gongneng {
+  width: 90%;
+  margin: 0 auto;
+  height: 0.9rem;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan {
+  float: left;
+  width: 0.6rem;
+  height: 0.9rem;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan1 {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0.25rem 0.1rem;
+  border-radius: 50%;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan1 .icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/touxiang.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan1 .con {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/shu.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan2 {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0.25rem 0.1rem;
+  border-radius: 50%;
+  background: #00C2FE;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan2 .icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/touxiang.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan2 .con {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/shu.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan3 {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0.25rem 0.1rem;
+  border-radius: 50%;
+  background: #00EBCB;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan3 .icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/touxiang.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan3 .con {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/shu.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan4 {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0.25rem 0.1rem;
+  border-radius: 50%;
+  background: #FFCB3C;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan4 .icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/touxiang.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan4 .con {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/shu.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .wenzi {
+  width: 70%;
+  height: 0.9rem;
+  float: left;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .wenzi .zhongwen {
+  height: 0.5rem;
+  width: 100%;
+  text-align: left;
+  line-height: 0.5rem;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .wenzi .yinwen {
+  height: 0.2rem;
+  width: 100%;
+  text-align: left;
+  line-height: 0.2rem;
+  font-size: 4px;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .wenzi .xiangxi {
+  height: 0.2rem;
+  width: 100%;
+  text-align: left;
+  line-height: 0.2rem;
+  font-size: 2px;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .xiangxia {
+  width: 1.1rem;
+  height: 0.9rem;
+  float: right;
+  text-align: right;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .xiangxia .jiantou {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0.2rem 0;
+  float: right;
+  color: deepskyblue;
+}
+
+#wodexinxi .mainer .main .lis .gongneng .xiangxia .shijian {
+  width: 1rem;
+  height: 0.5rem;
+  margin-top: 0.4rem;
+  background: url(img/shijian.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}

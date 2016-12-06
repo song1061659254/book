@@ -1,0 +1,415 @@
+img {
+  vertical-align: middle; }
+
+#reading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #FFE7A7;
+  /*opacty*/ }
+  #reading .header-eight {
+    position: absolute;
+    left: 0;
+    top: -1rem;
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background: #0000FF;
+    z-index: 999; }
+    #reading .header-eight .headerLeft {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0.2rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: url(../../img/left.png);
+      background-size: cover;
+      overflow: hidden; }
+    #reading .header-eight .label {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.9rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: url(../../header/img/3.png);
+      background-size: cover;
+      overflow: hidden; }
+    #reading .header-eight .headerRight {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.2rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: url(../../header/img/6.png);
+      background-size: cover;
+      overflow: hidden; }
+  #reading .head-act {
+    transition: all 0.6s linear;
+    transform-origin: center top;
+    top: 0; }
+  #reading .head-act2 {
+    transition: all 0.6s linear;
+    transform-origin: center top;
+    top: -1rem; }
+  #reading .litel {
+    height: 0.28rem;
+    width: 100%; }
+    #reading .litel .line-lit {
+      position: absolute;
+      left: 0.28ren;
+      top: 0.06rem;
+      width: 100%;
+      height: 0.01rem;
+      margin-top: 0.12rem;
+      background: #666; }
+    #reading .litel span {
+      display: block;
+      position: absolute;
+      left: 0.28ren;
+      top: 0;
+      font-size: 0.22rem;
+      color: #7B6C55;
+      padding: 0 0.08rem;
+      background: #FFE7A7; }
+  #reading .essay-head {
+    font-size: 0.32rem;
+    font-family: "microsoft yahei";
+    padding-top: 0.14rem;
+    padding-left: 0.14rem; }
+  #reading p {
+    letter-spacing: 0.01rem;
+    word-spacing: 1rem;
+    font-size: 0.24rem;
+    padding: 0.20rem;
+    text-indent: 0.48rem;
+    color: #3A3730; }
+  #reading .pages {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.32rem;
+    background: #FFE7A7; }
+    #reading .pages span {
+      font-size: 0.24rem;
+      color: #363028;
+      font-weight: bold; }
+    #reading .pages .progress {
+      float: left; }
+    #reading .pages .progress-pages {
+      float: right; }
+  #reading .page-opacity {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform-origin: center bottom;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background: #151C2B; }
+    #reading .page-opacity .pull-page {
+      width: 100%;
+      height: 1rem;
+      overflow: hidden;
+      padding: 0.3rem 0.4rem; }
+      #reading .page-opacity .pull-page li {
+        float: left;
+        height: 100%;
+        font-size: 0.22rem; }
+      #reading .page-opacity .pull-page .pro-go {
+        width: 4.66rem;
+        height: 0.12rem;
+        background: #D5D5D5;
+        margin-top: 0.14rem;
+        border-radius: 0.12rem; }
+        #reading .page-opacity .pull-page .pro-go .go-color {
+          width: 4.66rem;
+          height: 0.12rem;
+          border-radius: 0.12rem;
+          background: #3BD636; }
+        #reading .page-opacity .pull-page .pro-go .pro-cir {
+          position: absolute;
+          left: 0;
+          top: -0.06rem;
+          width: 0.24rem;
+          height: 0.24rem;
+          border-radius: 50%;
+          background: #595F68; }
+          #reading .page-opacity .pull-page .pro-go .pro-cir .incir {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            width: 0.12rem;
+            height: 0.12rem;
+            border-radius: 50%;
+            background: #FFE175;
+            margin: 0.06rem; }
+      #reading .page-opacity .pull-page .up, #reading .page-opacity .pull-page .down {
+        width: 1rem;
+        padding-right: 0.12rem;
+        color: #C6C6C6; }
+      #reading .page-opacity .pull-page .down {
+        padding-left: 0.14rem; }
+    #reading .page-opacity .set {
+      width: 100%;
+      height: 1.24rem;
+      overflow: hidden; }
+      #reading .page-opacity .set li {
+        float: left;
+        width: 33.33%;
+        height: 100%;
+        padding: 0 0.96rem; }
+        #reading .page-opacity .set li .set-cir {
+          width: 0.58rem;
+          height: 0.58rem;
+          border-radius: 50%;
+          background: #57B9E4; }
+          #reading .page-opacity .set li .set-cir img {
+            width: 100%; }
+        #reading .page-opacity .set li .set-con {
+          color: #fff;
+          font-size: 0.22rem;
+          margin-top: 0.06rem; }
+  #reading .font-set {
+    position: fixed;
+    left: 0;
+    bottom: -3.2rem;
+    width: 100%;
+    height: 2.78rem;
+    background: #151C2B;
+    overflow: hidden;
+    padding: 0.16rem 0.32rem; }
+    #reading .font-set .size {
+      height: 0.4rem;
+      line-height: 0.4rem;
+      font-size: 0.24rem;
+      margin-top: 0.2rem; }
+      #reading .font-set .size li {
+        float: left;
+        height: 0.4rem;
+        color: #fff;
+        font-size: 0.24rem; }
+      #reading .font-set .size .imgs {
+        text-align: center; }
+        #reading .font-set .size .imgs img {
+          width: 40%;
+          margin-left: 0.1rem; }
+      #reading .font-set .size .size-go {
+        width: 4.66rem;
+        height: 0.06rem;
+        margin: 0.17rem 0;
+        border-radius: 0.06rem;
+        background: #D5D5D5; }
+        #reading .font-set .size .size-go .go-lis {
+          width: 100%;
+          height: 100%;
+          border-radius: 0.06rem;
+          background: #71EC26; }
+        #reading .font-set .size .size-go .pro-cir {
+          position: absolute;
+          left: 0;
+          top: -0.09rem;
+          width: 0.24rem;
+          height: 0.24rem;
+          border-radius: 50%;
+          background: #595F68; }
+          #reading .font-set .size .size-go .pro-cir .incir {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            width: 0.12rem;
+            height: 0.12rem;
+            border-radius: 50%;
+            background: #FFE175;
+            margin: 0.06rem; }
+      #reading .font-set .size .nub {
+        margin: 0 0.24rem; }
+    #reading .font-set .wall {
+      font-size: 0.24rem;
+      margin-top: 0.24rem; }
+      #reading .font-set .wall li {
+        float: left;
+        color: #fff; }
+      #reading .font-set .wall .color-eve {
+        width: 0.55rem;
+        height: 0.55rem;
+        background: #fff;
+        margin-left: 0.18rem; }
+      #reading .font-set .wall .color-eve.blue {
+        background-color: #04ACF6; }
+      #reading .font-set .wall .color-eve.green {
+        background-color: #56D75E; }
+      #reading .font-set .wall .color-eve.yellow {
+        background-color: #EFCB41; }
+      #reading .font-set .wall .color-eve.brown {
+        background-color: #A57D59; }
+      #reading .font-set .wall .color-eve.pink {
+        background-color: #FF2369; }
+      #reading .font-set .wall .color-eve.orange {
+        background-color: #FD7830; }
+      #reading .font-set .wall .color-eve.purple {
+        background-color: #CB7AD7; }
+  #reading .font-act {
+    transition: all 0.6s linear;
+    transform-origin: center bottom;
+    bottom: 0; }
+  #reading .font-act2 {
+    transition: all 0.6s linear;
+    transform-origin: center bottom;
+    bottom: -4rem; }
+  #reading .fontSet-act {
+    transition: all 0.6s linear;
+    transform-origin: center bottom;
+    height: 2.25rem; }
+  #reading .fontSet-act2 {
+    transition: all 0.6s linear;
+    transform-origin: center bottom;
+    height: 0; }
+  #reading .back-op {
+    position: fixed;
+    left: 0;
+    bottom: -2.2rem;
+    width: 100%;
+    background: #151C2B;
+    overflow: hidden;
+    padding: 0.16rem 0.32rem;
+    height: 1.86rem; }
+    #reading .back-op .size {
+      height: 0.4rem;
+      line-height: 0.4rem;
+      font-size: 0.24rem;
+      margin-top: 0.2rem; }
+      #reading .back-op .size li {
+        float: left;
+        height: 0.4rem;
+        color: #fff;
+        font-size: 0.24rem; }
+      #reading .back-op .size .imgs {
+        text-align: center; }
+        #reading .back-op .size .imgs img {
+          width: 40%;
+          margin-left: 0.1rem; }
+      #reading .back-op .size .size-go {
+        width: 4.66rem;
+        height: 0.06rem;
+        margin: 0.17rem 0;
+        border-radius: 0.06rem;
+        background: #D5D5D5;
+        margin-left: 0.18rem; }
+        #reading .back-op .size .size-go .go-lis {
+          width: 100%;
+          height: 100%;
+          border-radius: 0.06rem;
+          background: #71EC26; }
+        #reading .back-op .size .size-go .pro-cir {
+          position: absolute;
+          left: 0;
+          top: -0.09rem;
+          width: 0.24rem;
+          height: 0.24rem;
+          border-radius: 50%;
+          background: #595F68; }
+          #reading .back-op .size .size-go .pro-cir .incir {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            width: 0.12rem;
+            height: 0.12rem;
+            border-radius: 50%;
+            background: #FFE175;
+            margin: 0.06rem; }
+      #reading .back-op .size .nub {
+        margin: 0 0.24rem; }
+      #reading .back-op .size .system {
+        border: 1px solid #fff;
+        border-radius: 0.04rem;
+        line-height: 0.34rem;
+        padding: 0 0.06rem; }
+    #reading .back-op .protect {
+      float: left;
+      font-size: 0.24rem;
+      margin-top: 0.4rem; }
+      #reading .back-op .protect .protect-cir {
+        float: left;
+        width: 0.2rem;
+        height: 0.2rem;
+        border-radius: 50%;
+        background: #FFFFFF;
+        padding: 0.05rem;
+        margin-top: 0.1rem;
+        margin-right: 0.2rem; }
+        #reading .back-op .protect .protect-cir .in-cir {
+          width: 0.1rem;
+          height: 0.1rem;
+          border-radius: 50%;
+          background: #7D7D7D; }
+      #reading .back-op .protect .word {
+        float: left;
+        color: #999999; }
+    #reading .back-op .size2, #reading .back-op .protect2 {
+      float: right; }
+  #reading .ftstact {
+    transition: all 0.6s linear;
+    bottom: 0; }
+  #reading .ftstact2 {
+    transition: all 0.6s linear;
+    bottom: -2.2rem; }
+  #reading .out-by {
+    position: fixed;
+    right: -0.34rem;
+    top: 45%;
+    height: 0.76rem;
+    width: 0;
+    border-radius: 0.34rem;
+    background: #fff; }
+    #reading .out-by img {
+      height: 80%;
+      margin: 0.06rem 0 0 0.2rem; }
+  #reading .out-act {
+    transition: all 0.6s linear;
+    width: 1.3rem; }
+  #reading .out-act2 {
+    transition: all 0.6s linear;
+    width: 0; }
+  #reading .copy {
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    width: 3.98rem;
+    height: 0.46rem;
+    padding-bottom: 0.02rem;
+    overflow: hidden;
+    border-radius: 0.12rem; }
+    #reading .copy .copy-eve {
+      float: left;
+      width: 0.74rem;
+      height: 100%;
+      background: #272727;
+      border-right: 0.02rem solid #202020;
+      line-height: 0.44rem;
+      text-align: center;
+      font-size: 0.17rem; }
+      #reading .copy .copy-eve a {
+        color: #fff; }
+
+/*# sourceMappingURL=inreading.css.map */

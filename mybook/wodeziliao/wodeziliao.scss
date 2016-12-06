@@ -1,0 +1,390 @@
+@import "../base";
+
+
+.zhe{
+    display: none;
+    position: absolute;
+    top:0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 13.34rem;
+    background: rgba(0,0,0,0.6);
+    z-index: 5;
+   
+//  .tan2{
+//       display: none;
+//  }
+    .tan{
+        width:4.8rem;
+        height: 3.5rem;
+        margin: 3.87rem auto;
+        border-radius:8px 8px ;
+        background: #fff;
+        .top{
+            width: 100%;
+            height:0.85rem ;
+            background: url(img/title.png) no-repeat; 
+            background-size: cover;
+            overflow: hidden;
+            .biaoti{
+                width:90%;
+                height: 0.65rem;
+                margin: 0.1rem auto;
+                .icon1{
+                    float: left;
+                    width:0.65rem;
+                    height: 0.65rem;
+                    background: url(img/yonghu.png);
+                    background-size: cover;
+                    overflow: hidden;
+                }
+                .icon2{
+                    float: left;
+                    width:0.65rem;
+                    height: 0.65rem;
+                    background: url(img/xingbie.png);
+                    background-size: cover;
+                    overflow: hidden;
+                }
+                .title{
+                    float: left;
+                    width:82%;
+                    height: 0.65rem;
+                    .zhong{
+                        height: 0.4rem;
+                        line-height: 0.4rem;
+                    }
+                    .yin{
+                        height: 0.2rem;
+                        line-height: 0.2rem;
+                    }
+                }
+            }
+        }
+        .man{
+            width:90%;
+            margin: 0 auto;
+            height: 2rem;
+            .main{
+                width:82%;
+                margin: 0 auto;
+                height: 2rem;
+                .lie{
+                    width:80%;
+                    margin: 0 auto;
+                    height: 1rem;
+                    border-bottom: 1px dashed #444;
+                    span{
+                        display: block;
+                    }
+                    .zhong{
+                        width:100%;
+                        height: 0.4rem;
+                        text-align: left;
+                        line-height: 0.4rem;
+                    }
+                    .yin{
+                        width:100%;
+                        height: 0.3rem;
+                        text-align: left;
+                        line-height: 0.3rem; 
+                        font-size: 4px; 
+                    }
+                }
+                .lis{
+                    float: left;
+                    width:50%;
+                    height: 2rem;
+                    .nan{
+                        width:1rem;
+                        height: 1rem;
+                        margin:0.6rem auto;
+                        border-radius:50% ;
+                        background: url(img/nan.png) no-repeat; 
+                        background-size: contain;
+                        overflow: hidden;
+                    }
+                    .nv{
+                        width:1rem;
+                        height: 1rem;
+                        margin:0.6rem auto;
+                        border-radius:50% ;
+                        background: url(img/nv.png) no-repeat; 
+                        background-size: contain;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        .quxiao{
+            width:60%;
+            height: 0.6rem;
+            margin:0.4rem auto;
+            background: url(img/quxiao.png) no-repeat; 
+            background-size: contain;
+            overflow: hidden;
+        }
+    }
+}
+.header{
+    height: 2rem;
+    margin-bottom: 0.1rem;
+    #header-four{
+        width: 100%;
+        height: 1rem;
+        display: block;
+        background:$maincolor;       
+        .headerLeft{
+            position: absolute;
+            @include vertical;
+            left: 0.2rem;
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background: url(img/left.png);
+            background-size: cover;
+            overflow: hidden;
+        }  
+        .title{
+             font-size: 0.4rem;
+             line-height: 0.4rem;
+             color: #fff;
+             width: 70%;
+             height: 0.4rem;
+             @include center;
+             text-align: center;
+             letter-spacing: 0.05rem;
+             font-size: 14px;
+         }   
+         .en{
+             font-size: 0.15rem;
+             line-height: 0.45rem;
+             font-weight: bold;
+             color: #9ddffd;
+             width: 70%;
+             height: 0.45rem;
+             @include level;
+             bottom: 5%;
+             text-align: center;
+         }
+         
+         .headerRight{
+            position: absolute;
+            @include vertical;
+            right: 0.4rem;
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background: url(img/6.png);
+            background-size: cover;
+            overflow: hidden;
+        } 
+    }
+}
+
+.mainer{ 
+    width:93%;
+    margin: 0 auto;
+    height: 8rem;
+
+    .ziliao{
+        width:100%;
+        height: 4rem;
+        margin-bottom: 0.4rem;
+        .lis:nth-of-type(4){
+            border: 0;
+        }
+        .lis{
+            width:100%;
+            height: 0.9rem;
+            border-bottom: 1px dashed #444;
+            .gongneng{
+                width:90%;
+                margin: 0 auto;
+                height: 0.9rem;
+                .quan{
+                    float: left;
+                    width:0.6rem;
+                    height: 0.9rem;
+                    .tuan1{
+                        width:0.4rem;
+                        height: 0.4rem;
+                        margin: 0.25rem 0.1rem;
+                        border-radius: 50%;
+                        background: #2263FB;
+                        .icon{
+                            width:0.2rem;
+                            height: 0.4rem;
+                            margin: 0 auto;
+                            background: url(img/centre.png);          
+                                           
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    .tuan2{
+                        width:0.4rem;
+                        height: 0.4rem;
+                        margin: 0.25rem 0.1rem;
+                        border-radius: 50%;
+                        background: #00C2FE;
+                        .icon{
+                            width:0.2rem;
+                            height: 0.4rem;
+                            margin: 0 auto;
+                            background: url(img/centre.png);          
+                                     
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    .tuan3{
+                        width:0.4rem;
+                        height: 0.4rem;
+                        margin: 0.25rem 0.1rem;
+                        border-radius: 50%;
+                        background: #00EBCB;
+                        .icon{
+                            width:0.2rem;
+                            height: 0.4rem;
+                            margin: 0 auto;
+                            background: url(img/centre.png);          
+                                          
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    .tuan4{
+                        width:0.4rem;
+                        height: 0.4rem;
+                        margin: 0.25rem 0.1rem;
+                        border-radius: 50%;
+                        background: #FFCB3C;
+                        .icon{
+                            width:0.2rem;
+                            height: 0.4rem;
+                            margin: 0 auto;
+                            background: url(img/centre.png);          
+                                    
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+                .wenzi{
+                    width:50%;
+                    height: 0.9rem;
+                    float: left;
+                    .zhongwen{
+                        height: 0.5rem;
+                        width:100%;
+                        text-align: left;
+                        line-height: 0.5rem;
+                    }
+                    .yinwen{
+                        height: 0.2rem;
+                        width:100%;
+                        margin-bottom: 0.2rem;
+                        text-align: left;
+                        line-height: 0.2rem;
+                    }
+                }
+                .xiangxia{
+                    width:2rem;
+                    height: 0.9rem;
+                    float: right;
+                    text-align: right;
+                    .jiantou{
+                        width:2rem;
+                        height: 0.5rem;
+                        margin: 0.2rem 0;
+                        float: right;
+                        color: deepskyblue;
+                    }
+                }
+            }
+        }
+    }
+    
+    .shezhi{
+        width:100%;
+        height: 2rem;
+        .lis:nth-of-type(2){
+            border: 0;
+        }
+        .lis{
+            width:100%;
+            height: 0.9rem;
+            border-bottom: 1px dashed #444;
+            .gongneng{
+                width:90%;
+                margin: 0 auto;
+                height: 0.9rem;
+                .quan{
+                    float: left;
+                    width:0.6rem;
+                    height: 0.9rem;
+                    .tuan1{
+                        width:0.4rem;
+                        height: 0.4rem;
+                        margin: 0.25rem 0.1rem;
+                        border-radius: 50%;
+                        background: #2263FB;
+                        .icon{
+                            width:0.2rem;
+                            height: 0.4rem;
+                            margin: 0 auto;
+                            background: url(img/centre.png);          
+                                           
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    .tuan2{
+                        width:0.4rem;
+                        height: 0.4rem;
+                        margin: 0.25rem 0.1rem;
+                        border-radius: 50%;
+                        background: #00C2FE;
+                        .icon{
+                            width:0.2rem;
+                            height: 0.4rem;
+                            margin: 0 auto;
+                            background: url(img/centre.png);          
+                                     
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+                .wenzi{
+                    width:50%;
+                    height: 0.9rem;
+                    float: left;
+                    .zhongwen{
+                        height: 0.5rem;
+                        width:100%;
+                        text-align: left;
+                        line-height: 0.5rem;
+                    }
+                    .yinwen{
+                        height: 0.2rem;
+                        width:100%;
+                        margin-bottom: 0.2rem;
+                        text-align: left;
+                        line-height: 0.2rem;
+                    }
+                }
+                .xiangxia{
+                    width:2rem;
+                    height: 0.9rem;
+                    float: right;
+                    text-align: right;
+                    .jiantou{
+                        width:2rem;
+                        height: 0.5rem;
+                        margin: 0.2rem 0;
+                        float: right;
+                        color: deepskyblue;
+                    }
+                }
+            } 
+        }
+    }
+}

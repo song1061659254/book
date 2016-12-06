@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+.shupall {
+  width: 100%;
+  overflow: auto;
+}
+
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+  text-align: center;
+}
+
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(../../img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-seven span {
+  font-size: 0.34rem;
+  color: #fff;
+  line-height: 1rem;
+  display: block;
+  width: 1.5rem;
+  margin: 0 auto;
+}
+
+.new-shuping {
+  width: 94%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+
+.new-shuping .shup {
+  width: 100%;
+  height: 1.54rem;
+  border: 1px solid #ebf2fe;
+  border-radius: 10px;
+  padding: 0 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.new-shuping .shup .shup-lf {
+  width: 0.85rem;
+  margin-top: 0.3rem;
+  float: left;
+}
+
+.new-shuping .shup .shup-lf img {
+  width: 100%;
+  height: auto;
+}
+
+.new-shuping .shup .shup-rg {
+  width: 5.3rem;
+  float: right;
+}
+
+.new-shuping .shup .shup-rg .word-box {
+  width: 100%;
+  height: 0.8rem;
+  border-bottom: 1px dashed #bbb;
+  font-size: 0.24rem;
+  color: #999;
+  margin-top: 0.2rem;
+}
+
+.new-shuping .shup .shup-rg .word-box span {
+  width: 0.23rem;
+  height: 0.23rem;
+  display: inline-block;
+  background: url(../../img/27.png);
+  background-size: 100%  auto;
+  vertical-align: middle;
+}
+
+.new-shuping .shup .shup-rg .date {
+  width: 100%;
+  height: 0.5rem;
+}
+
+.new-shuping .shup .shup-rg .date .lf-date {
+  float: left;
+  width: 2rem;
+  height: 100%;
+}
+
+.new-shuping .shup .shup-rg .date .lf-date b {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../../img/28.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+  margin-top: 0.05rem;
+  margin-right: 0.1rem;
+}
+
+.new-shuping .shup .shup-rg .date .lf-date span {
+  width: 0.85rem;
+  height: 0.16rem;
+  color: #999;
+  font-size: 0.16rem;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+.new-shuping .shup .shup-rg .date .rg-date {
+  float: right;
+  width: 1.4rem;
+  height: 100%;
+}
+
+.new-shuping .shup .shup-rg .date .rg-date b {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../../img/30.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+  margin-top: 0.05rem;
+  margin-right: 0.1rem;
+}
+
+.new-shuping .shup .shup-rg .date .rg-date span {
+  width: 0.85rem;
+  height: 0.16rem;
+  color: #999;
+  font-size: 0.16rem;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+.fabu {
+  width: 100%;
+  height: 1.3rem;
+  background: #151c2b;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.fabu .ct-btn {
+  width: 1.5rem;
+  height: 0.52rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../img/889.png) no-repeat;
+  background-size: 100% auto;
+}
+.ct-btn a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

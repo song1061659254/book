@@ -1,0 +1,495 @@
+@import "../base";
+
+
+// one
+
+#header-one{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+     
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
+    
+    
+    input{
+        position: absolute;
+        @include center;
+        width: 5.45rem;
+        height: 0.55rem;
+        background: url(img/input.png);
+        background-size: contain;
+        border: none;
+        padding-left: 0.8rem;
+        font-size: 0.25rem;
+    }  
+     
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.4rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/1.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+
+
+// two
+
+#header-two{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+     
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
+    
+    input{
+        position: absolute;
+        @include center;
+        width: 5.45rem;
+        height: 0.55rem;
+        background: url(img/input.png);
+        background-size: contain;
+        border: none;
+        padding-left: 0.8rem;
+        font-size: 0.25rem;
+    }  
+     
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.4rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/2.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+
+
+
+// three
+
+#header-three{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+     
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
+    
+    input{
+        position: absolute;
+        @include center;
+        width: 5.45rem;
+        height: 0.55rem;
+        background: url(img/input.png);
+        background-size: contain;
+        border: none;
+        padding-left: 0.8rem;
+        font-size: 0.25rem;
+    }  
+}
+
+
+
+//four
+
+
+#header-four{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+     
+     .center{
+         width: 0.4rem;
+         height: 0.08rem;
+         position: absolute;
+         @include center;
+         background: url(img/001.png);
+        background-size: cover;
+         
+     }
+     .title{
+         font-size: 0.35rem;
+         line-height: 0.35rem;
+         color: #fff;
+         width: 70%;
+         height: 0.35rem;
+         @include level;
+         top: 10%;
+         text-align: center;
+         letter-spacing: 0.05rem;
+         
+     }
+     .en{
+         font-size: 0.15rem;
+         line-height: 0.45rem;
+         font-weight: bold;
+         color: #9ddffd;
+         width: 70%;
+         height: 0.45rem;
+         @include level;
+         bottom: 5%;
+         text-align: center;
+     }
+     
+     
+     
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.4rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/6.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+}
+
+
+
+// five
+
+#header-five{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+     
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
+    .title{
+         font-size: 0.4rem;
+         line-height: 0.4rem;
+         color: #fff;
+         width: 70%;
+         height: 0.4rem;
+         @include center;
+         text-align: center;
+         letter-spacing: 0.05rem;
+         
+     }
+    
+    
+}
+
+
+
+//SIX
+
+
+#header-six{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+     
+     .center{
+         width: 0.4rem;
+         height: 0.08rem;
+         position: absolute;
+         @include center;
+         background: url(img/001.png);
+        background-size: cover;
+         
+     }
+     .title{
+         font-size: 0.35rem;
+         line-height: 0.35rem;
+         color: #fff;
+         width: 70%;
+         height: 0.35rem;
+         @include level;
+         top: 10%;
+         text-align: center;
+         letter-spacing: 0.05rem;
+         
+     }
+     .en{
+         font-size: 0.15rem;
+         line-height: 0.45rem;
+         font-weight: bold;
+         color: #9ddffd;
+         width: 70%;
+         height: 0.45rem;
+         @include level;
+         bottom: 5%;
+         text-align: center;
+     }
+     
+
+}
+
+
+//seven
+
+
+#header-seven{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+     
+}
+
+
+//eight
+
+
+#header-eight{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+    
+    .label{
+        position: absolute;
+        @include vertical;
+        right: 0.9rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/3.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/6.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+}
+
+
+
+
+//nine
+
+
+#header-nine{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+    .navigation{
+        width: 5.7rem;
+        height: 0.8rem;
+        @include center;
+        background: #2a3441;
+        border-radius: 0.5rem;
+        background: url(img/002.png);
+        background-size: cover;
+        .topLeft{
+            float: left;
+            margin:0.04rem 0.12rem;
+            width: 1.65rem;
+            height: 0.7rem;
+            border-radius: 0.05rem;
+            background: url(img/x1.png);
+            background-size: cover;
+            overflow: hidden;
+            font-size: 0.1rem;
+            .ch{
+                font-size: 0.25rem;
+                color: #FFFFFF;
+                @include level;
+                top: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.25rem;
+                text-align: center;
+                line-height: 0.25rem;
+                letter-spacing: 0.03rem;
+            }
+            .en{
+               
+                color: #91c8e4;
+                @include level;
+                bottom: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                text-align: center;
+                line-height: 0.1rem;
+                 font-size: 0.1rem;
+//              letter-spacing: 0.03rem;
+            }
+        }
+        .topCenter{
+            float: left;
+            margin:0.04rem 0.12rem;
+            width: 1.65rem;
+            height: 0.7rem;
+            border-radius: 0.05rem;
+//          background: url(img/x1.png);
+            background-size: cover;
+            overflow: hidden;
+            .ch{
+                font-size: 0.25rem;
+                color: #FFFFFF;
+                @include level;
+                top: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.25rem;
+                text-align: center;
+                line-height: 0.25rem;
+                letter-spacing: 0.03rem;
+            }
+            .en{
+               
+                color: #91c8e4;
+                @include level;
+                bottom: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                text-align: center;
+                line-height: 0.1rem;
+                 font-size: 0.1rem;
+//              letter-spacing: 0.03rem;
+            }
+        }
+        .topRight{
+            float: left;
+            margin:0.04rem 0.12rem;
+            width: 1.65rem;
+            height: 0.7rem;
+            border-radius: 0.05rem;
+//          background: url(img/x1.png);
+            background-size: cover;
+            overflow: hidden;
+            .ch{
+                font-size: 0.25rem;
+                color: #FFFFFF;
+                @include level;
+                top: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.25rem;
+                text-align: center;
+                line-height: 0.25rem;
+                letter-spacing: 0.03rem;
+            }
+            .en{
+               
+                color: #91c8e4;
+                @include level;
+                bottom: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                text-align: center;
+                line-height: 0.1rem;
+                 font-size: 0.1rem;
+//              letter-spacing: 0.03rem;
+            }
+        }
+        
+        
+        
+    }
+   
+
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/6.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+}

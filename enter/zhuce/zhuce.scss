@@ -1,0 +1,114 @@
+@import "../../base";
+
+
+
+#chu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    #ding{
+        img{
+            width: 100%;
+        }
+    }
+    
+      
+    #kuang{
+        width: 100%;
+        height: 1rem;
+        margin-top: 0.65rem;
+        position: relative;
+        background: url(images/9.png) no-repeat center;
+        background-size: 90% auto;
+       input{
+           position: absolute;
+           left: 1.5rem;
+           top: 0.2rem;
+           font-size: 24px;
+           border: 0;
+           
+       }
+    }
+    .pass{
+        width: 100%;
+        height: 1rem;
+        margin-top: 0.55rem;
+        position: relative;
+        background: url(images/2.png) no-repeat center;
+        background-size: 90% auto;
+       input{
+           position: absolute;
+           left: 1.5rem;
+           top: 0.2rem;
+           font-size: 24px;
+           border: 0;
+           
+       }
+    } 
+    
+    #yanzhengma{
+        margin-top: 0.55rem;
+        margin-left:0.48rem;
+        position: relative;
+        img{
+            width: 50%;
+        }
+    }
+    #passs{
+        width: 208px;
+        height: 87px;
+        margin-top: -65px;
+        margin-left:4.2rem;
+        position: relative;
+        background: url(images/12.png) no-repeat center;
+        background-size: 55% auto;
+       input{
+           position: absolute;
+           left:1rem;
+           top: 30px;
+           font-size: 15px;
+           border: 0;
+           background: none;
+           width: 1.7rem;
+           
+       }
+    } 
+    
+    #find{
+        width: 100%;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        margin-top: 0.02rem;
+        .find{
+            width: 5.2rem;
+            margin: 0 auto;
+            height: 100%;
+            color: #666666;
+            font-size: 16px;
+            img{
+                vertical-align: middle;
+            }
+            .left{
+                float: left;
+            }
+            .right{
+                float: right;
+            }  
+        }
+        
+    }
+    
+    
+    
+    .di{
+       margin-top: 0.5rem;
+       background: url(images/6.png) no-repeat center;
+       width: 100%;
+       height: 0.7rem;
+       background-size: 75% auto;
+    }
+
+}

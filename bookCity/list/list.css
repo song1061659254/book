@@ -1,0 +1,387 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*vertical*/
+/*level*/
+/*center*/
+#list #header-nine {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#list #header-nine .navigation {
+  width: 5.7rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #2a3441;
+  border-radius: 0.5rem;
+  background: url(img/002.png);
+  background-size: cover;
+}
+
+#list #header-nine .navigation .topLeft {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: none;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 0.1rem;
+}
+
+#list #header-nine .navigation .topLeft .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#list #header-nine .navigation .topLeft .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#list #header-nine .navigation .topCenter {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: none;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#list #header-nine .navigation .topCenter .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#list #header-nine .navigation .topCenter .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#list #header-nine .navigation .topRight {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: url(img/x1.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#list #header-nine .navigation .topRight .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#list #header-nine .navigation .topRight .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#list #header-nine .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/6.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#list .matter {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+#list .matter .letter {
+  height: 0.6rem;
+  width: 100%;
+  background: #ace1f8;
+  box-shadow: 0 0 0.3rem #999;
+}
+
+#list .matter .letter .tupian {
+  width: 0.4rem;
+  height: 0.34rem;
+  background: url(img/book2.png);
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.38rem;
+}
+
+#list .matter .letter .wlwx {
+  width: auto;
+  height: 0.2rem;
+  font-size: 0.2rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.85rem;
+  color: #000;
+  text-align: left;
+}
+
+#list .matter .lis {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0 0.3rem;
+  margin-top: 0.15rem;
+  float: left;
+}
+
+#list .matter .lis .title {
+  width: 100%;
+  height: 0.5rem;
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+  color: #29a5db;
+  font-weight: bold;
+  border-bottom: 1px dashed #dddddd;
+}
+
+#list .matter .lis .this {
+  width: 33.3%;
+  height: 1.2rem;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 0.3rem 0.3rem #999;
+  float: left;
+}
+
+#list .matter .lis .this .lei {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 2.03rem;
+  height: 0.88rem;
+  background: url(img/sc9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.35rem;
+  line-height: 0.88rem;
+  text-align: center;
+  color: #fff;
+}
+
+#list #footer-one {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #151c2b;
+  z-index: 100;
+}
+
+#list #footer-one .bookrack {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f2.png);
+  background-size: cover;
+  display: block;
+  float: left;
+  border-right: 1px solid #717171;
+}
+
+#list #footer-one .bookrack span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#list #footer-one .bookCity {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f11.png);
+  background-size: cover;
+  float: left;
+  display: block;
+}
+
+#list #footer-one .bookCity span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #fff;
+}
+
+#list #footer-one .personage {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f3.png);
+  background-size: cover;
+  float: left;
+  border-left: 1px solid #717171;
+  display: block;
+}
+
+#list #footer-one .personage span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}

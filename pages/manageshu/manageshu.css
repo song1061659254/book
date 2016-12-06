@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+  text-align: center;
+}
+
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(../../img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-seven span {
+  font-size: 0.34rem;
+  color: #fff;
+  line-height: 1rem;
+  display: block;
+}
+
+.manageshu {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.manageshu .zhangjie {
+  width: 100%;
+}
+
+.manageshu .zhangjie .shuping {
+  width: 100%;
+  height: 1.3rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0.3rem;
+  border-bottom: 1px dashed #666;
+  padding-top: 0.2rem;
+  margin-top: 0;
+  position: relative;
+}
+
+.manageshu .zhangjie .shuping .span-a {
+  display: block;
+  width: 0.34rem;
+  height: 0.34rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.45rem;
+  background: url(../../img/green.png) no-repeat;
+  background-size: 100% auto;
+  display: none;
+}
+
+.manageshu .zhangjie .shuping b {
+  width: 0.6rem;
+  height: 0.7rem;
+  background: url(../../img/2.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+.manageshu .zhangjie .shuping .big {
+  font-size: 0.25rem;
+  font-weight: bold;
+  float: left;
+  line-height: 0.2rem;
+  color: #333;
+}
+
+.manageshu .zhangjie .shuping p {
+  font-size: 0.15rem;
+  left: 1.1rem;
+  top: 0.45rem;
+  color: #666;
+}
+
+.manageshu .zhangjie .shuping .shijian {
+  height: 0.38rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.9rem;
+  width: 100%;
+}
+
+.manageshu .zhangjie .shuping .shijian .left-shijian {
+  float: left;
+  width: 2rem;
+  height: 100%;
+}
+
+.manageshu .zhangjie .shuping .shijian .left-shijian b {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url(../../img/26.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+}
+
+.manageshu .zhangjie .shuping .shijian .left-shijian span {
+  font-size: 0.15rem;
+  float: left;
+  color: #666;
+}
+
+.manageshu .zhangjie .shuping .shijian .right-shijian {
+  float: right;
+  width: 2.5rem;
+  height: 100%;
+}
+
+.manageshu .zhangjie .shuping .shijian .right-shijian b {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(../../img/7.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+}
+
+.manageshu .zhangjie .shuping .shijian .right-shijian span {
+  font-size: 0.15rem;
+  float: left;
+  color: #666;
+}
+
+.manageshu .zhangjie .active {
+  background: url(../../img/green6.png) no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 0;
+}
+
+.manageshu .zhangjie .active b {
+  width: 0;
+  height: 0;
+}
+
+.manageshu .zhangjie .active .big {
+  color: #fff;
+}
+
+.manageshu .zhangjie .active p {
+  left: 0.5rem;
+  color: #fff;
+  font-size: 0.12rem;
+}
+
+.manageshu .zhangjie .active .span-a {
+  display: block;
+}
+
+.manageshu .zhangjie .active .shijian {
+  height: 0.38rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.9rem;
+  width: 100%;
+}
+
+.manageshu .zhangjie .active .shijian .left-shijian {
+  float: left;
+  width: 2rem;
+  height: 100%;
+}
+
+.manageshu .zhangjie .active .shijian .left-shijian b {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url(../../img/090.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+}
+
+.manageshu .zhangjie .active .shijian .left-shijian span {
+  font-size: 0.15rem;
+  float: left;
+  color: #fff;
+}
+
+.manageshu .zhangjie .active .shijian .right-shijian {
+  float: right;
+  width: 2.5rem;
+  height: 100%;
+}
+
+.manageshu .zhangjie .active .shijian .right-shijian b {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(../../img/87.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+}
+
+.manageshu .zhangjie .active .shijian .right-shijian span {
+  font-size: 0.15rem;
+  float: left;
+  color: #fff;
+}

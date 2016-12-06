@@ -1,0 +1,242 @@
+.catalogue #header-nine {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc; }
+.catalogue #header-nine .navigation {
+  width: 5.7rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #2a3441;
+  border-radius: 0.5rem;
+  background: url(../../img/002.png);
+  background-size: cover; }
+.catalogue #header-nine .navigation .topLeft {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: url(../../img/x1.png);
+  background-size: cover;
+  overflow: hidden;
+  font-size: 0.1rem; }
+.catalogue #header-nine .navigation .topLeft .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem; }
+.catalogue #header-nine .navigation .topLeft .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.1rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.04rem; }
+.catalogue #header-nine .navigation .topCenter {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: transparent;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 0.1rem; }
+.catalogue #header-nine .navigation .topCenter .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem; }
+.catalogue #header-nine .navigation .topCenter .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.06rem; }
+.catalogue #header-nine .navigation .topRight {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background-size: cover;
+  background: transparent;
+  overflow: hidden;
+  font-size: 0.1rem; }
+.catalogue #header-nine .navigation .topRight .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem; }
+.catalogue #header-nine .navigation .topRight .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.06rem; }
+.catalogue #header-nine .headerLeft {
+  position: absolute;
+  top: 0;
+  left: 0.2rem;
+  bottom: 0;
+  margin: auto;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(../../header/img/left.png);
+  background-size: cover;
+  overflow: hidden; }
+.catalogue .mulv {
+  width: 100%;
+  padding: 0.2rem; }
+  .catalogue .mulv .cata-eve {
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.03rem dashed #999999; }
+    .catalogue .mulv .cata-eve span {
+      height: 100%;
+      margin-left: 0.28rem;
+      font-size: 0.28rem;
+      color: #4E4E4E;
+      line-height: 1rem; }
+    .catalogue .mulv .cata-eve .loadown {
+      float: right;
+      margin-right: 0.3rem;
+      color: #999; }
+  .catalogue .mulv .cata-eve1 span {
+    color: #518DE7; }
+.catalogue .bookmark {
+  width: 100%; }
+  .catalogue .bookmark .total {
+    width: 100%;
+    height: 0.48rem;
+    background: #E5E5E5;
+    color: #A8A8A8;
+    font-size: 0.18rem;
+    line-height: 0.48rem;
+    text-align: center; }
+  .catalogue .bookmark .mark-eve {
+    height: 1.3rem;
+    border-bottom: 0.03rem dashed #999; }
+    .catalogue .bookmark .mark-eve img {
+      float: left;
+      height: 100%;
+      vertical-align: middle; }
+    .catalogue .bookmark .mark-eve ul {
+      float: left; }
+      .catalogue .bookmark .mark-eve ul li {
+        height: auto; }
+      .catalogue .bookmark .mark-eve ul .mark-name {
+        font-size: 0.24rem;
+        color: #151C2B;
+        font-weight: bold;
+        padding: 0.06rem; }
+      .catalogue .bookmark .mark-eve ul .mark-con {
+        color: #565656;
+        font-size: 0.18rem;
+        padding-right: 0.6rem; }
+      .catalogue .bookmark .mark-eve ul .note {
+        font-size: 0.24rem;
+        color: #E23D60;
+        font-weight: bold;
+        padding: 0.06rem; }
+      .catalogue .bookmark .mark-eve ul .mark-date img {
+        margin-top: 0.04rem;
+        vertical-align: middle; }
+      .catalogue .bookmark .mark-eve ul .mark-date span {
+        color: #C9C9C9;
+        margin-left: 0.1rem;
+        font-size: 0.16rem; }
+      .catalogue .bookmark .mark-eve ul .mark-date .eye, .catalogue .bookmark .mark-eve ul .mark-date .eye-loge {
+        float: right;
+        font-size: 0.16rem;
+        margin-top: 0.1rem;
+        color: #C9C9C9; }
+      .catalogue .bookmark .mark-eve ul .mark-date .eye {
+        margin-right: 0.6rem; }
+  .catalogue .bookmark .all {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.26rem;
+    background: #3E3E3E; }
+    .catalogue .bookmark .all .all-box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 1.4rem;
+      height: 0.5rem;
+      border-radius: 0.4rem;
+      background: #F4F4F4;
+      line-height: 0.46rem;
+      color: #686868;
+      font-size: 0.2rem;
+      text-align: center; }
+  .catalogue .bookmark .mark-eve2 {
+    height: 2rem; }
+.catalogue .choose {
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  opacity: 0; }
+.catalogue .choose1 {
+  opacity: 1; }
+
+/*# sourceMappingURL=catalogue.css.map */

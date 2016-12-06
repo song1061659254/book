@@ -1,0 +1,277 @@
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 16px;
+  background: #f2f2f2; }
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px; } }
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei"; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+/*vertical*/
+/*level*/
+/*center*/
+/*$maincolor*/
+#header-two {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc; }
+  #header-two .headerLeft {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0.2rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: url(img/left.png);
+    background-size: cover;
+    overflow: hidden; }
+  #header-two input {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 5.45rem;
+    height: 0.55rem;
+    background: url(img/input.png);
+    background-size: contain;
+    border: none;
+    padding-left: 0.8rem;
+    font-size: 0.25rem; }
+  #header-two .headerRight {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0.4rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: url(img/22.png);
+    background-size: cover;
+    overflow: hidden; }
+
+.zhezhao {
+  width: 100%;
+  height: 93%;
+  background: #5b5a5c;
+  opacity: 0.4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.box {
+  width: 100%;
+  height: 4.17rem;
+  position: fixed;
+  left: 0;
+  top: 1rem;
+  background: #000000;
+  z-index: 100;
+  border-radius: 0px 0px 45px 45px;
+  display: none; }
+  .box .up {
+    width: 100%;
+    height: 1.17rem;
+    background: #fff; }
+    .box .up .up-center {
+      width: 5.77rem;
+      height: 0.85rem;
+      background: url(img/3.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto; }
+      .box .up .up-center .up-left {
+        margin-left: 0.07rem;
+        margin-top: 0.12rem;
+        width: 2.43rem;
+        height: 0.6rem;
+        background: #29a6dc;
+        border-radius: 50px;
+        border: 1px solid #fff;
+        position: relative; }
+        .box .up .up-center .up-left .zhpx {
+          font-size: 0.25rem;
+          color: #fff;
+          margin-left: 0.7rem;
+          display: block; }
+        .box .up .up-center .up-left .sy {
+          color: #91c8e4;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          bottom: 0.15rem;
+          display: block;
+          width: 100%;
+          height: 0.1rem;
+          text-align: center;
+          line-height: 0.1rem;
+          font-size: 0.1rem;
+          display: block; }
+      .box .up .up-center .up-right {
+        width: 1.2rem;
+        height: 0.44rem;
+        position: absolute;
+        right: 0.88rem;
+        top: 0.22rem; }
+        .box .up .up-center .up-right .sjpx {
+          font-size: 0.25rem;
+          color: #fff;
+          display: block; }
+        .box .up .up-center .up-right .my {
+          color: #91c8e4;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          bottom: 0rem;
+          display: block;
+          width: 100%;
+          line-height: 0.1rem;
+          font-size: 0.1rem;
+          display: block; }
+  .box .down {
+    width: 100%;
+    height: 3rem;
+    background: #fff;
+    border-radius: 0px 0px 45px 45px; }
+    .box .down .xux {
+      width: 1.75rem;
+      height: 0.45rem;
+      border: 1px solid #000;
+      border-radius: 50px;
+      float: left;
+      margin-left: 0.55rem;
+      margin-top: 0.3rem;
+      text-align: center;
+      line-height: 0.45rem; }
+    .box .down .xux1 {
+      background: #29a6dc;
+      color: #fff;
+      border: 0; }
+
+.clothing {
+  width: 100%;
+  height: 3.72rem;
+  background: #fff;
+  margin-top: 0.2rem;
+  border-radius: 7px;
+  position: relative; }
+  .clothing .left {
+    width: 2.47rem;
+    height: 3.5rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.07rem; }
+    .clothing .left .img {
+      width: 2.47rem;
+      height: 3.5rem;
+      background: url(img/fz1.png);
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .clothing .right {
+    width: 4.17rem;
+    height: 3.16rem;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.14rem; }
+    .clothing .right .fuz {
+      font-size: 0.27rem;
+      color: #000;
+      font-weight: bold; }
+    .clothing .right .fas {
+      font-size: 0.13rem;
+      color: #000;
+      margin-left: 0.15rem; }
+    .clothing .right .chanshu {
+      margin-left: 0.15rem;
+      font-size: 0.19rem;
+      color: #666; }
+    .clothing .right .zuoz, .clothing .right .zis {
+      font-size: 0.17rem;
+      color: #797979;
+      margin-left: 0.1rem;
+      padding-top: 0.15rem; }
+    .clothing .right .zis {
+      padding-top: 0.01rem; }
+    .clothing .right .shoucang {
+      width: 0.23rem;
+      height: 0.23rem;
+      background: url(img/icon6.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+      margin-top: 0.1rem; }
+    .clothing .right .shoucang1 {
+      width: 0.23rem;
+      height: 0.23rem;
+      background: url(img/icon7.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+      margin-top: 0.1rem; }
+    .clothing .right .anniu {
+      width: 2.0rem;
+      height: 0.6rem;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background: url(img/an2.png);
+      background-size: cover;
+      background-repeat: no-repeat; }
+
+.jianpan {
+  width: 100%;
+  height: 4.47rem;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  .jianpan .img {
+    width: 100%;
+    height: 4.47rem;
+    background: url(img/jianpan.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+/*# sourceMappingURL=clothing2.css.map */

@@ -1,0 +1,612 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#header-one {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-one .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-one input {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5.45rem;
+  height: 0.55rem;
+  background: url(img/input.png);
+  background-size: contain;
+  border: none;
+  padding-left: 0.8rem;
+  font-size: 0.25rem;
+}
+
+#header-one .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/1.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-two {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-two .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-two input {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5.45rem;
+  height: 0.55rem;
+  background: url(img/input.png);
+  background-size: contain;
+  border: none;
+  padding-left: 0.8rem;
+  font-size: 0.25rem;
+}
+
+#header-two .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/2.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-three {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-three .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-three input {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5.45rem;
+  height: 0.55rem;
+  background: url(img/input.png);
+  background-size: contain;
+  border: none;
+  padding-left: 0.8rem;
+  font-size: 0.25rem;
+}
+
+#header-four {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-four .center {
+  width: 0.4rem;
+  height: 0.08rem;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(img/001.png);
+  background-size: cover;
+}
+
+#header-four .title {
+  font-size: 0.35rem;
+  line-height: 0.35rem;
+  color: #fff;
+  width: 70%;
+  height: 0.35rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10%;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+#header-four .en {
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  font-weight: bold;
+  color: #9ddffd;
+  width: 70%;
+  height: 0.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  text-align: center;
+}
+
+#header-four .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/6.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-five {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-five .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-five .title {
+  font-size: 0.4rem;
+  line-height: 0.4rem;
+  color: #fff;
+  width: 70%;
+  height: 0.4rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+#header-six {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-six .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-six .center {
+  width: 0.4rem;
+  height: 0.08rem;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(img/001.png);
+  background-size: cover;
+}
+
+#header-six .title {
+  font-size: 0.35rem;
+  line-height: 0.35rem;
+  color: #fff;
+  width: 70%;
+  height: 0.35rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10%;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+#header-six .en {
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  font-weight: bold;
+  color: #9ddffd;
+  width: 70%;
+  height: 0.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  text-align: center;
+}
+
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-eight {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-eight .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-eight .label {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.9rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/3.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-eight .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/6.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-nine {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-nine .navigation {
+  width: 5.7rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #2a3441;
+  border-radius: 0.5rem;
+  background: url(img/002.png);
+  background-size: cover;
+}
+
+#header-nine .navigation .topLeft {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: url(img/x1.png);
+  background-size: cover;
+  overflow: hidden;
+  font-size: 0.1rem;
+}
+
+#header-nine .navigation .topLeft .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#header-nine .navigation .topLeft .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#header-nine .navigation .topCenter {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-nine .navigation .topCenter .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#header-nine .navigation .topCenter .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#header-nine .navigation .topRight {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-nine .navigation .topRight .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#header-nine .navigation .topRight .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#header-nine .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/6.png);
+  background-size: cover;
+  overflow: hidden;
+}

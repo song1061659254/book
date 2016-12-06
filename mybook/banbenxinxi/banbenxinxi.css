@@ -1,0 +1,178 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#banbenxinxi .header {
+  height: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+#banbenxinxi .header #header-four {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#banbenxinxi .header #header-four .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#banbenxinxi .header #header-four .title {
+  font-size: 0.4rem;
+  line-height: 0.4rem;
+  color: #fff;
+  width: 70%;
+  height: 0.4rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-size: 14px;
+}
+
+#banbenxinxi .header #header-four .en {
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  font-weight: bold;
+  color: #9ddffd;
+  width: 70%;
+  height: 0.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  text-align: center;
+}
+
+#banbenxinxi .header #header-four .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/xinxi.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#banbenxinxi .fankui {
+  width: 90%;
+  height: 6rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background: url(img/bg.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#banbenxinxi .fankui .top {
+  width: 50%;
+  margin: 0 auto;
+  height: 1rem;
+}
+
+#banbenxinxi .fankui .top .banben1 {
+  width: 60%;
+  margin: 0 auto;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+
+#banbenxinxi .fankui .top .banben2 {
+  width: 90%;
+  margin: 0 auto;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 4px;
+}
+
+#banbenxinxi .fankui .input {
+  width: 90%;
+  margin: 0 auto;
+  height: 3rem;
+  margin-bottom: 0.5rrem;
+}
+
+#banbenxinxi .fankui .input span {
+  width: 100%;
+  height: 3rem;
+  border: 0;
+  font-size: 10px;
+}

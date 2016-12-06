@@ -1,0 +1,209 @@
+$d-list: 120px,360px,375px,412px,414px;
+html{
+    font-size: 100px;
+}
+
+body{
+    font-size: 16px;   
+    background:#f2f2f2;
+}
+$design-size:750px;
+@each $w in $d-list{
+    @media screen and (min-width:#{$w}){
+        html{
+            font-size: 100px * $w /$design-size;
+        }
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "microsoft yahei";
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+/*vertical*/
+@mixin vertical {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*level*/
+@mixin level {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*center*/
+@mixin center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@mixin img {
+    max-width: 100%;
+    max-height: 100%;
+    @include center;
+}
+
+
+/*$maincolor*/
+$maincolor:#29a6dc;
+$imgpath:"../img";
+
+//header
+#header-two{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+     
+    .headerLeft{
+        position: absolute;
+        @include vertical;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
+    
+    input{
+        position: absolute;
+        @include center;
+        width: 5.45rem;
+        height: 0.55rem;
+        background: url(img/input.png);
+        background-size: contain;
+        border: none;
+        padding-left: 0.8rem;
+        font-size: 0.25rem;
+    }  
+     
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.4rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/22.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+//clothing
+.clothing{
+    width:100%;
+    height:3.72rem;
+    background:#fff;
+    margin-top:0.2rem;
+    border-radius:7px;
+    position:relative;
+    .left{
+        width:2.47rem;
+        height:3.5rem;
+        position:absolute;
+        left:0.25rem;
+        top:0.07rem;
+        .img{
+            width:2.47rem;
+            height:3.5rem;
+            background:url(img/fz1.png);
+            background-repeat:no-repeat;
+            background-size:cover;
+        } 
+    }
+    .right{
+        width:4.17rem;
+        height:3.16rem;
+        position:absolute;
+        right:0.3rem;
+        top:0.14rem;
+        .fuz{
+            font-size:0.27rem;
+            color:#000;
+            font-weight: bold;
+        }
+        .fas{
+            font-size:0.13rem;
+            color:#000;
+            margin-left: 0.15rem;
+        }
+        .chanshu{
+            margin-left: 0.15rem;
+            font-size:0.19rem;
+            color:#666;
+        }
+        .zuoz,.zis{
+            font-size:0.17rem;
+            color:#797979;
+            margin-left: 0.1rem;
+            padding-top:0.15rem ;
+        }
+        .zis{
+            padding-top:0.01rem ;
+        }
+        .shoucang{
+            width:0.23rem;
+            height:0.23rem;
+            background:url(img/icon6.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            float:left;
+            margin-top:0.1rem;
+        }
+        .shoucang1{
+            width:0.23rem;
+            height:0.23rem;
+            background:url(img/icon7.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            float:left;
+            margin-top:0.1rem;
+        }
+        .anniu{
+            width:2.0rem;
+            height:0.6rem;
+            position:absolute;
+            right:0;
+            bottom:0;
+            background:url(img/an2.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+           
+        }
+    }
+}
+
+//jianpan
+.jianpan{
+    width:100%;
+    height:4.47rem;
+    position: fixed;
+    left:0;
+    bottom:0;
+    .img{
+        width:100%;
+        height:4.47rem;
+        background:url(img/jianpan.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    
+}

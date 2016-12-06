@@ -1,0 +1,436 @@
+@charset "UTF-8";
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#all {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
+#all .book {
+  width: 92%;
+  height: 5.3rem;
+  border: 1px solid #ebf2fe;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+
+#all .book .lf-book {
+  width: 45%;
+  height: 3.3rem;
+  float: left;
+}
+
+#all .book .lf-book .img {
+  width: 2.5rem;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+#all .book .rg-book {
+  width: 52%;
+  height: 3.3rem;
+  float: right;
+  box-sizing: border-box;
+  padding-right: 0.2rem;
+}
+
+#all .book .rg-book .tit {
+  margin-top: 0.44rem;
+  font-size: 0.28rem;
+  color: #000;
+  line-height: 0.4rem;
+}
+
+#all .book .rg-book .en {
+  font-size: 0.17rem;
+  color: #666;
+  line-height: 0.3rem;
+}
+
+#all .book .rg-book .author, #all .book .rg-book .year {
+  font-size: 0.17rem;
+  color: #666;
+  line-height: 0.3rem;
+}
+
+#all .book .rg-book .xing {
+  width: 100%;
+  height: 0.35rem;
+  margin-top: 0.05rem;
+}
+
+#all .book .rg-book .xing img {
+  float: left;
+  display: block;
+  margin-right: 0.07rem;
+  width: 0.26rem;
+  height: auto;
+}
+
+#all .book .rg-book .word {
+  font-size: 0.1rem;
+  color: #999;
+}
+
+#all .book .rg-book .green {
+  width: 100%;
+  height: 0.6rem;
+  margin-top: 0.1rem;
+}
+
+#all .book .rg-book .green img {
+  float: left;
+  margin-right: 0.1rem;
+  width: 0.9rem;
+}
+
+#all .book .mulu {
+  width: 100%;
+  height: 0.7rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+
+#all .book .mulu .lf-mulu {
+  width: 43%;
+  height: 100%;
+  float: left;
+  border: 1px solid #ebf2fe;
+  border-radius: 1rem;
+  margin-left: 0.3rem;
+  box-sizing: border-box;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+#all .book .mulu .lf-mulu img {
+  float: left;
+  margin-left: 0.2rem;
+  width: 0.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#all .book .mulu .lf-mulu span {
+  float: left;
+  margin-left: 0.8rem;
+  line-height: 0.6rem;
+}
+
+#all .book .mulu .rg-mulu {
+  width: 43%;
+  height: 100%;
+  float: right;
+  border: 1px solid #ebf2fe;
+  border-radius: 1rem;
+  margin-right: 0.4rem;
+  padding: 0 0.3rem;
+  position: relative;
+}
+
+#all .book .mulu .rg-mulu img {
+  float: left;
+  margin-left: 0.2rem;
+  width: 0.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#all .book .mulu .rg-mulu span {
+  float: left;
+  margin-left: 0.8rem;
+  line-height: 0.6rem;
+}
+
+#all .book .read {
+  width: 2.8rem;
+  height: 0.7rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../img/25.png) no-repeat;
+  background-size: 100% auto;
+  bottom: 0.2rem;
+  font-family: "microsoft yahei";
+  text-align: center;
+  line-height: 0.7rem;
+  color: #fff;
+  font-size: 0.28rem;
+}
+
+#all .shuping {
+  margin-top: 0.28rem;
+  width: 100%;
+  height: 0.8rem;
+  box-sizing: border-box;
+  padding: 0 0.3rem;
+}
+
+#all .shuping b {
+  width: 0.4rem;
+  height: 0.7rem;
+  background: url(../../img/13.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+#all .shuping .big {
+  font-size: 0.32rem;
+  float: left;
+}
+
+#all .shuping p {
+  font-size: 0.18rem;
+  position: absolute;
+  left: 0.9rem;
+  top: 0.4rem;
+}
+
+#all .shuqian b {
+  width: 0.5rem;
+  background: url(../../img/2.png) no-repeat;
+  background-size: 100% auto;
+  color: #555;
+}
+
+#all .shuqian .big {
+  font-size: 0.28rem;
+  float: left;
+}
+
+#all .shuqian p {
+  font-size: 0.15rem;
+  left: 1rem;
+  top: 0.35rem;
+}
+
+#all .new-shuping {
+  width: 92%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#all .new-shuping .shup {
+  width: 100%;
+  height: 1.54rem;
+  border: 1px solid #ebf2fe;
+  border-radius: 10px;
+  padding: 0 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+#all .new-shuping .shup .shup-lf {
+  width: 0.85rem;
+  margin-top: 0.3rem;
+  float: left;
+}
+
+#all .new-shuping .shup .shup-lf img {
+  width: 100%;
+  height: auto;
+}
+
+#all .new-shuping .shup .shup-rg {
+  width: 5.3rem;
+  float: right;
+}
+
+#all .new-shuping .shup .shup-rg .word-box {
+  width: 100%;
+  height: 0.8rem;
+  border-bottom: 1px dashed #bbb;
+  font-size: 0.24rem;
+  color: #999;
+  margin-top: 0.2rem;
+}
+
+#all .new-shuping .shup .shup-rg .word-box span {
+  width: 0.23rem;
+  height: 0.23rem;
+  display: inline-block;
+  background: url(../../img/27.png);
+  background-size: 100%  auto;
+  vertical-align: middle;
+}
+
+#all .new-shuping .shup .shup-rg .date {
+  width: 100%;
+  height: 0.5rem;
+}
+
+#all .new-shuping .shup .shup-rg .date .lf-date {
+  float: left;
+  width: 2rem;
+  height: 100%;
+}
+
+#all .new-shuping .shup .shup-rg .date .lf-date b {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(img/28.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+  margin-top: 0.05rem;
+  margin-right: 0.1rem;
+}
+
+#all .new-shuping .shup .shup-rg .date .lf-date span {
+  width: 0.85rem;
+  height: 0.16rem;
+  color: #999;
+  font-size: 0.16rem;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+#all .new-shuping .shup .shup-rg .date .rg-date {
+  float: right;
+  width: 1.4rem;
+  height: 100%;
+}
+
+#all .new-shuping .shup .shup-rg .date .rg-date b {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../../img/30.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+  margin-top: 0.05rem;
+  margin-right: 0.1rem;
+}
+
+#all .new-shuping .shup .shup-rg .date .rg-date span {
+  width: 0.85rem;
+  height: 0.16rem;
+  color: #999;
+  font-size: 0.16rem;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+#all .new-shuping .anniu {
+  width: 2.24rem;
+  height: 0.4rem;
+  margin: 0 auto;
+  background: url(../../img/31.png) no-repeat;
+  background-size: 100% auto;
+  color: #fff;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.35rem;
+}
+#all .new-shuping .anniu a{
+	color: #fff;
+}
+#all .zhangjie .shuqian {
+  margin-top: 0.1rem;
+}
+
+#all .zhangjie .shuqian b {
+  width: 0.6rem;
+  background: url(../../img/2.png) no-repeat;
+  background-size: 100% auto;
+  color: #555;
+}
+
+#all .zhangjie .shuqian .big {
+  font-size: 0.25rem;
+  font-weight: bold;
+  float: left;
+}
+
+#all .zhangjie .shuqian p {
+  font-size: 0.15rem;
+  left: 1.1rem;
+  top: 0.35rem;
+  color: #666;
+}
+
+#all .zhangjie .shuqian .shijian {
+  height: 0.38rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.7rem;
+  width: 100%;
+}
+
+#all .zhangjie .shuqian .shijian .left-shijian {
+  float: left;
+  width: 2rem;
+  height: 100%;
+}
+
+#all .zhangjie .shuqian .shijian .left-shijian b {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url(../../img/26.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+}
+
+#all .zhangjie .shuqian .shijian .left-shijian span {
+  font-size: 0.15rem;
+  float: left;
+  color: #666;
+}
+
+#all .zhangjie .shuqian .shijian .right-shijian {
+  float: right;
+  width: 2.5rem;
+  height: 100%;
+}
+
+#all .zhangjie .shuqian .shijian .right-shijian b {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(img/7.png) no-repeat;
+  background-size: 100% auto;
+  float: left;
+}
+
+#all .zhangjie .shuqian .shijian .right-shijian span {
+  font-size: 0.15rem;
+  float: left;
+  color: #666;
+}

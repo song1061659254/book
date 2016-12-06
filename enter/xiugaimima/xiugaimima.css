@@ -1,0 +1,203 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*vertical*/
+/*level*/
+/*center*/
+#wz {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+
+#wz #ding img {
+  width: 100%;
+}
+#wz #ding .back{
+	display: block;
+	position: absolute;
+	left: 0.28rem;
+	top: 0.64rem;
+	width: 0.46rem;
+	height: 0.46rem;
+	
+}
+#wz #zikuan {
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+#wz #zikuan span {
+  color: #344082;
+  left: 0.1rem;
+}
+
+#wz .zikuang {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 18px;
+  line-height: 0.8rem;
+}
+
+#wz .zikuang span {
+  color: #344082;
+  margin-left: 75%;
+}
+
+#wz #kuang {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  background: url(images/9.png) no-repeat center;
+  background-size: 90% auto;
+}
+
+#wz #kuang input {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.2rem;
+  font-size: 24px;
+  border: 0;
+}
+
+#wz #pass {
+  width: 100%;
+  height: 1rem;
+  margin-top: 0.45rem;
+  position: relative;
+  background: url(images/2.png) no-repeat center;
+  background-size: 90% auto;
+}
+
+#wz #pass input {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.2rem;
+  font-size: 24px;
+  border: 0;
+}
+
+#wz #yanzhengma {
+  margin-top: 0.55rem;
+  margin-left: 0.48rem;
+  position: relative;
+}
+
+#wz #yanzhengma img {
+  width: 50%;
+}
+
+#wz #passs {
+  width: 208px;
+  height: 87px;
+  margin-top: -65px;
+  margin-left: 4.2rem;
+  position: relative;
+  background: url(images/12.png) no-repeat center;
+  background-size: 55% auto;
+}
+
+#wz #passs input {
+  position: absolute;
+  left: 1rem;
+  top: 30px;
+  font-size: 15px;
+  border: 0;
+  background: none;
+  width: 1.7rem;
+}
+
+#wz #find {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+#wz #find .find {
+  width: 5.2rem;
+  margin: 0 auto;
+  height: 100%;
+  color: #666666;
+  font-size: 16px;
+}
+
+#wz #find .find img {
+  vertical-align: middle;
+}
+
+#wz #find .find .left {
+  float: left;
+}
+
+#wz #find .find .right {
+  float: right;
+}
+
+#wz .di {
+  margin-top: 0.5rem;
+  background: url(images/7.png) no-repeat center;
+  width: 100%;
+  height: 0.7rem;
+  background-size: 75% auto;
+}

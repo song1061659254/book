@@ -1,0 +1,378 @@
+
+/*垂直居中vertical*/
+@mixin vertical {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*水平居中level*/
+@mixin level {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*全居中center*/
+@mixin center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@mixin img {
+    max-width: 100%;
+    max-height: 100%;
+    @include center;
+}
+
+/*蓝色：$maincolor*/
+$maincolor:#29a6dc;
+$imgpath:"../img";
+
+.read2{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 0.2rem;
+    .book{
+        width: 92%;
+        height: 5.3rem;
+        border: 1px solid #ebf2fe;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 0.2rem;
+        
+        .lf-book{
+            width: 45%;
+            height: 3.3rem;
+            float: left;
+            .img{
+                width: 2.5rem;
+                height: auto;
+                @include center;
+                display: block;
+            }
+        }
+        .rg-book{
+            width: 52%;
+            height: 3.3rem;
+            float: right;
+            box-sizing: border-box;
+            padding-right: 0.2rem;
+            .tit{
+               margin-top: 0.44rem;
+                font-size: 0.28rem;
+                color: #000;
+                line-height: 0.4rem;
+            }
+            .en{
+                font-size: 0.17rem;
+                color: #666;
+                line-height: 0.3rem;
+            }
+            .author,.year{
+                font-size: 0.17rem;
+                color: #666;
+                line-height: 0.3rem;
+            }
+            .xing{
+                width: 100%;
+                height: 0.35rem;
+                margin-top: 0.05rem;
+                img{
+                    float: left;
+                    display: block;
+                    margin-right: 0.07rem;
+                    width: 0.26rem;
+                    height: auto;
+                }
+            }
+            .word{
+                font-size: 0.1rem;
+                color: #999;
+            }
+            .green{
+                width: 100%;
+                height: 0.6rem;
+                margin-top: 0.1rem;
+                img{
+                    float: left;
+                    margin-right: 0.1rem;
+                    width: 0.9rem;
+                }
+            }
+        }
+        
+        
+        .mulu{
+            width: 100%;
+            height: 0.7rem; 
+            margin-top: 0.1rem;
+            float: left;
+            .lf-mulu{
+                width: 43%;
+                height: 100%;
+                float: left;
+                border: 1px solid #ebf2fe;
+                border-radius: 1rem;
+                margin-left: 0.3rem;
+                box-sizing: border-box;
+                padding: 0 0.4rem;
+                position: relative;
+                img{
+                    float: left;
+                    margin-left: 0.2rem;
+                    width: 0.5rem;
+                    @include vertical;
+                }
+                span{
+                    float: left;
+                     margin-left: 0.8rem;
+                     line-height: 0.6rem;
+                }
+            } 
+            .rg-mulu{
+                width: 43%;
+                height: 100%;
+                float: right;
+                border: 1px solid #ebf2fe;
+                border-radius: 1rem;
+                margin-right: 0.4rem;
+                padding: 0 0.3rem;
+                position: relative;
+                img{
+                    float: left;
+                    margin-left: 0.2rem;
+                    width: 0.5rem;
+                    @include vertical;
+                }
+                span{
+                    float: left;
+                    margin-left: 0.8rem;
+                    line-height: 0.6rem;
+                }
+            }  
+        }
+        
+        
+        .read{
+            width: 2.8rem;
+            height: 0.7rem;
+            @include level;
+            background: url(../../img/25.png) no-repeat;
+            background-size:100% auto ;
+            bottom: 0.2rem;
+            font-family: "microsoft yahei";
+            text-align: center;
+            line-height: 0.7rem;
+            color: #fff;
+            font-size: 0.28rem;
+        }
+    }
+    .shuping{
+        margin-top: 0.2rem;
+        width: 100%;
+        height: 0.8rem;
+        box-sizing: border-box;
+        padding: 0 0.3rem;
+        b{
+            width: 0.4rem;
+            height: 0.7rem;
+            background: url(../../img/13.png) no-repeat;
+            background-size: 100% auto;
+            float: left;
+            margin-right: 0.2rem;
+            margin-top: 0.1rem;
+        }
+        #b{
+            background: url(../../img/14.png) no-repeat;
+             background-size: 100% auto;
+        }
+        #bb{
+            background: url(../../img/333.png) no-repeat;
+             background-size: 100% auto;
+        }
+        .big{
+            font-size: 0.32rem;
+            float: left;
+        }
+        p{
+            font-size: 0.18rem;
+            position: absolute;
+            left: 0.9rem;
+            top: 0.4rem;
+            
+        }
+    }
+    
+    .shuqian{
+        
+        b{
+          width: 0.5rem;
+          background: url(../../img/2.png) no-repeat; 
+          background-size: 100% auto; 
+          color: #555;
+        }
+        .big{
+            font-size: 0.28rem;
+            float: left;
+        }
+        p{
+            font-size: 0.15rem;
+            left: 1rem;
+            top: 0.35rem;
+        }
+    }
+    
+    .new-shuping{
+        width: 92%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 0.1rem;
+        .shup{
+            width: 100%;
+            height: 1.54rem;
+            border: 1px solid #ebf2fe;
+            border-radius: 10px;
+            padding: 0 0.2rem;
+            margin-bottom: 0.2rem;
+//          position: relative;
+            .shup-lf{
+                width: 0.85rem;
+                margin-top: 0.3rem;
+                float: left;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .shup-rg{
+                width: 5.3rem;
+                float: right;
+                .word-box{
+                    width: 100%;
+                    height: 0.8rem;
+                    border-bottom: 1px dashed #bbb;
+                    font-size: 0.24rem;
+                    color: #999;
+                    margin-top: 0.2rem;
+                    span{
+                        width: 0.23rem;
+                        height: 0.23rem;
+                        display: inline-block;
+                        background: url(../../img/27.png);
+                        background-size:100%  auto;
+    //                  margin-top: 0.1rem;
+                        vertical-align: middle;
+                    }
+                }
+                .date{
+                    width: 100%;
+                    height: 0.5rem;
+                    .lf-date{
+                        float: left;
+                        width: 2rem;
+                        height: 100%;
+                        b{
+                            width: 0.4rem;
+                            height: 0.4rem;
+                            background: url(../../img/28.png) no-repeat;
+                            background-size: 100% auto;
+                            float: left;
+                            margin-top: 0.05rem;
+                            margin-right: 0.1rem;
+                        }
+                        span{
+                            width: 0.85rem;
+                            height: 0.16rem;
+                            color: #999;
+                            font-size: 0.16rem;
+                            float: left;
+                            margin-top: 0.08rem;
+                        }
+                    }
+                    .rg-date{
+                        float: right;
+                        width: 1.4rem;
+                        height: 100%;
+                        b{
+                            width: 0.4rem;
+                            height: 0.4rem;
+                            background: url(../../img/30.png) no-repeat;
+                            background-size: 100% auto;
+                            float: left;
+                            margin-top: 0.05rem;
+                            margin-right: 0.1rem;
+                        }
+                        span{
+                            width: 0.85rem;
+                            height: 0.16rem;
+                            color: #999;
+                            font-size: 0.16rem;
+                            float: left;
+                            margin-top: 0.08rem;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    
+    .addshuqian{
+        width: 92%;
+        height: 0.88rem;
+        border: 1px solid #EBF2FE;
+        margin: 0 auto;
+        border-radius: 8px;
+        .biaoti{
+            width: 1.7rem;
+            height: 100%;
+//          background: red;
+            margin: 0 auto;
+            b{
+                width: 0.4rem;
+                height: 0.4rem;
+                background: url(../../img/32.png);
+                background-size: 100% auto;
+                float: left;
+                margin-top: 0.2rem;
+                margin-right: 0.2rem;
+            }
+            span{
+                font-size: 0.25rem;
+                color: #666;
+                line-height: 0.8rem;
+            }
+        }
+    }
+    
+    
+    
+.shuji{
+    width: 92%;
+    margin: 0 auto;
+    overflow: hidden;
+    .img-box{
+        float: left;
+        width: 33.3%;
+//      margin-left: 0.03rem;
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+}
+    
+ 
+}

@@ -1,0 +1,53 @@
+<div id="list">
+		<div id="header-nine">
+			<div class="navigation">
+				<a href="#/choiceness" class="topLeft">
+					<span class="ch">精选</span>
+					<span class="en">SELECTED</span>
+				</a>
+				<a href="#/classify" class="topCenter">
+					<span class="ch">榜单</span>
+					<span class="en">LIST</span>
+				</a>
+				<a href="#/list" class="topRight">
+					<span class="ch">分类</span>
+					<span class="en">CLASSIFY</span>
+				</a>				
+			</div>
+				<a class="headerRight" href="#/Hotsearch"></a>
+		</div>
+		
+		
+		<ul class="matter" ng-repeat="v in one">
+			<li class="letter">
+				<div class="tupian"></div>
+				<span class="wlwx">{{v.name}}</span>
+			</li>
+			<li class="lis" ng-repeat="x in two">
+				<div class="title">·{{x.name}}</div>
+				<div class="this" ng-repeat="z in three">
+
+					
+					<a href="#/Fashiondesign3" class="lei">{{z.name}}</a>
+
+				</div>
+			</li>
+
+		</ul>
+		
+
+		
+		<div id="footer-one">
+
+			<a href="#/mybookshelf" class="bookrack">
+				<span>书架</span>
+			</a>
+			<a href="javascript:;" class="bookCity">
+				<span>书城</span>				
+			</a>
+			<a href="#/gerenzhongxin" class="personage">
+
+				<span>我的</span>				
+			</a>
+		</div>
+</div>

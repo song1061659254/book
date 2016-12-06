@@ -1,0 +1,162 @@
+//@import "base";
+//$maincolor:#29a6dc;
+//$imgpath:"../img";
+#mark{
+   #header-four{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:#29A6DC;   
+     .headerLeft{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(../../img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
+     .center{
+         width: 0.4rem;
+         height: 0.08rem;
+         position: absolute;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         margin: auto;
+         background: url(../../001.png);
+        background-size: cover;
+         
+     }
+     .title{
+         font-size: 0.35rem;
+         line-height: 0.35rem;
+         color: #fff;
+         width: 70%;
+         height: 0.35rem;
+         position: absolute;
+         left: 0;
+         right: 0;
+         margin: auto;
+         top: 10%;
+         text-align: center;
+         letter-spacing: 0.05rem;
+         
+     }
+     .en{
+         font-size: 0.15rem;
+         line-height: 0.45rem;
+         font-weight: bold;
+         color: #9ddffd;
+         width: 70%;
+         height: 0.45rem;
+        position: absolute;
+         left: 0;
+         right: 0;
+         bottom: 5%;
+         margin: auto;
+         text-align: center;
+     }
+     }
+    .calender{
+        height: 0.5rem;
+        padding: 0.08rem 0.24rem;
+        img{
+            height: 100%;
+            vertical-align: middle;
+        }
+        span{
+            color: #AEAEAE;
+            font-size: 0.18rem;
+            margin-left: 0.1rem;
+        }
+    }
+   
+    .mark-box,.mark-write{
+//      margin-top: 4rem;
+        width: 7rem;
+        height: 3.24rem;
+        margin: 0.1rem 0.22rem 0 0.26rem;
+       box-shadow:-1px 0 6px #E8E8E8, /*左边阴影*/  
+        1px 0 6px #E8E8E8, /*右边阴影*/  
+        0 -1px 6px #E8E8E8, /*顶部阴影*/  
+        0 1px 6px #E8E8E8; /*底边阴影*/  
+         .line{
+             position: absolute;
+             left: 0;
+             top: -0.1rem,;
+             width: 90%;
+             vertical-align: middle;
+             border: 0;
+         }
+         .mark-con{
+             list-style: none;
+             width: 100%;
+             height: 100%;
+             padding: 0 0.16rem;
+             border: none;
+             resize: none;
+             background: #F2F2F2;
+             font-size: 0.24rem;
+             font-weight: 300;
+             color: #333;       
+         }       
+    }
+    .mark-write{
+        margin-top: 0.26rem;
+        height: 1.96rem;
+        padding: 0 0.16rem;
+         font-size: 0.24rem;
+         color: #333;
+         border: none;
+         background: #F2F2F2;
+         resize: none;
+    }
+    .mark-bnt{
+        position: relative;
+        height: 0.6rem;
+        padding: 0.48rem 1.24rem;
+        .btn1{
+            float: left;
+            width: 1.68rem;
+           height: 0.6rem;
+            border-radius: 0.6rem;
+            background: #29DCBC;
+            text-align: center;
+            line-height: 0.6rem;
+            font-size: 0.22rem;
+            color: #fff;
+            .cir1{
+            position: absolute;
+            top: 0.26rem;
+            width: 0.08rem;
+            height: 0.08rem;
+            border-radius: 50%;
+            background: #fff;
+            
+        }
+        .cir3{ 
+              left: 0.16rem;
+            }
+        .cir2{ 
+              right: 0.16rem;
+            }
+        }
+        .btn2{
+            float: right;
+            background: #28DD8B;
+        }
+        
+    }
+    .key{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}

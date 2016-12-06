@@ -1,0 +1,653 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+  background: #fafafa;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*vertical*/
+/*level*/
+/*center*/
+/*$maincolor*/
+#header-four {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-four .center {
+  width: 0.4rem;
+  height: 0.08rem;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(img/001.png);
+  background-size: cover;
+}
+
+#header-four .title {
+  font-size: 0.35rem;
+  line-height: 0.35rem;
+  color: #fff;
+  width: 70%;
+  height: 0.35rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10%;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+#header-four .en {
+  font-size: 0.15rem;
+  line-height: 0.45rem;
+  font-weight: bold;
+  color: #9ddffd;
+  width: 70%;
+  height: 0.45rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  text-align: center;
+}
+
+#header-four .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/6.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+@keyframes move0 {
+  0% {
+    opacity: 0;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  66.66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes move1 {
+  0% {
+    opacity: 0;
+  }
+  33.33% {
+    opacity: 0;
+  }
+  66.66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    opacity: 0;
+  }
+  33.33% {
+    opacity: 0;
+  }
+  66.66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 3.52rem;
+  margin-top: 0.43rem;
+  position: relative;
+}
+
+.banner .banner0 {
+  width: 7rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 0.22rem;
+  top: 0.17rem;
+}
+
+.banner .banner0 .img {
+  width: 7rem;
+  height: 2.8rem;
+  background: url(img/banner0.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  opacity: 0;
+  animation: move0 3s linear infinite;
+}
+
+.banner .banner1 {
+  width: 6.66rem;
+  height: 3.22rem;
+  position: absolute;
+  top: 0;
+  left: 0.43rem;
+}
+
+.banner .banner1 .img {
+  width: 6.66rem;
+  height: 3.22rem;
+  background: url(img/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  opacity: 0;
+  animation: move1 3s linear infinite;
+}
+
+.banner .banner2 {
+  width: 6.66rem;
+  height: 3.22rem;
+  position: absolute;
+  top: 0;
+  left: 0.43rem;
+}
+
+.banner .banner2 .img {
+  width: 6.66rem;
+  height: 3.22rem;
+  background: url(img/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  opacity: 0;
+  animation: move2 3s linear infinite;
+}
+
+.banner .circle-box {
+  width: 1.25rem;
+  height: 0.15rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.banner .circle-box li {
+  margin-left: 0.2rem;
+  width: 0.15rem;
+  height: 0.15rem;
+  border-radius: 50%;
+  border: 1px solid #0090ff;
+  float: left;
+}
+
+.banner .circle-box .circle {
+  background: #3fabfe;
+  border: 0;
+}
+
+.newreleases {
+  width: 100%;
+  height: 4.58rem;
+  margin-top: 0.23rem;
+  position: relative;
+}
+
+.newreleases .releases-up {
+  width: 2.8rem;
+  height: 0.55rem;
+  position: relative;
+  margin-left: 0.38rem;
+}
+
+.newreleases .releases-up .icon {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(img/sc.png);
+  background-size: cover;
+}
+
+.newreleases .releases-up .wenzi {
+  float: left;
+  width: 1.9rem;
+  height: 0.55rem;
+  margin-left: 0.45rem;
+}
+
+.newreleases .releases-up .wenzi .wenzi-up {
+  display: block;
+  float: left;
+  font-size: 0.28rem;
+  color: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.newreleases .releases-up .wenzi .wenzi-down {
+  display: block;
+  float: left;
+  font-size: 0.16rem;
+  color: #666;
+  position: absolute;
+  left: 0;
+  top: 0.29rem;
+}
+
+.newreleases .releases-down {
+  width: 100%;
+  height: 3.83rem;
+  margin-top: 0.2rem;
+}
+
+.newreleases .releases-down .cant {
+  float: left;
+  width: 2.5rem;
+  height: 3.83rem;
+  position: relative;
+}
+
+.newreleases .releases-down .cant .img1 {
+  width: 2.5rem;
+  height: 3.63rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: url(img/2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.newreleases .releases-down .cant .img2 {
+  width: 2.12rem;
+  height: 2.82rem;
+  position: absolute;
+  left: 0.2rem;
+  top: -0.1rem;
+  background: url(img/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.newreleases .releases-down .cant .cant-zi {
+  width: 100%;
+  height: 0.55rem;
+  position: absolute;
+  left: 0;
+  bottom: 0.25rem;
+}
+
+.newreleases .releases-down .cant .cant-zi .cun {
+  font-size: 0.23rem;
+  color: #333;
+  position: absolute;
+  left: 0.58rem;
+  top: 0;
+}
+
+.newreleases .releases-down .cant .cant-zi .haruki {
+  font-size: 0.1rem;
+  color: #b3b3b3;
+  position: absolute;
+  left: 0.32rem;
+  top: 0.25rem;
+}
+
+.read {
+  width: 100%;
+  height: 5.38rem;
+  margin-top: 0.28rem;
+}
+
+.read .releases-up {
+  width: 2.8rem;
+  height: 0.55rem;
+  position: relative;
+  margin-left: 0.38rem;
+}
+
+.read .releases-up .icon {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(img/yd.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.read .releases-up .wenzi {
+  float: left;
+  width: 1.9rem;
+  height: 0.55rem;
+  position: absolute;
+  left: 0.45rem;
+  top: 0;
+}
+
+.read .releases-up .wenzi .wenzi-up {
+  display: block;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.28rem;
+  color: #000;
+}
+
+.read .releases-up .wenzi .wenzi-down {
+  display: block;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0.29rem;
+  font-size: 0.16rem;
+  color: #666;
+}
+
+.read .down {
+  width: 100%;
+  height: 4.62rem;
+  margin-top: 0.2rem;
+}
+
+.read .down .shu {
+  width: 7.08rem;
+  height: 2.28rem;
+  margin: 0 auto;
+  position: relative;
+  background: url(img/yuedu3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.read .down .shu .bj {
+  width: 7.08rem;
+  height: 2.28rem;
+}
+
+.read .down .shu .shu-left {
+  width: 1.38rem;
+  height: 2.0rem;
+  position: absolute;
+  left: 0.15rem;
+  top: 0.13rem;
+  background: url(img/yuedu1.png);
+}
+
+.read .down .shu .shu-right {
+  width: 5.24rem;
+  height: 2rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.13rem;
+}
+
+.read .down .shu .shu-right .shang {
+  width: 100%;
+  height: 0.56rem;
+}
+
+.read .down .shu .shu-right .shang .z1 {
+  width: 100%;
+  height: 0.25rem;
+  display: block;
+  font-size: 0.25rem;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.read .down .shu .shu-right .shang .z2 {
+  height: 0.31rem;
+  display: block;
+  font-size: 0.12rem;
+  color: #bfbfbf;
+  position: absolute;
+  left: 0;
+  top: 0.28rem;
+}
+
+.read .down .shu .shu-right .xia {
+  width: 100%;
+  height: 1.3rem;
+  margin-top: 0.24rem;
+  position: absolute;
+  left: 0;
+  top: 0.44rem;
+}
+
+.read .down .shu .shu-right .xia .z3 {
+  display: block;
+  font-size: 0.21rem;
+  color: #666;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.read .down .shu .shu-right .xia .z4 {
+  display: block;
+  font-size: 0.12rem;
+  color: #b3b3b3;
+  position: absolute;
+  left: 0;
+  top: 0.28rem;
+}
+
+.read .down .shu .shu-right .xia .yidu {
+  width: 2.52rem;
+  height: 0.17rem;
+  margin-top: 0.1rem;
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+}
+
+.read .down .shu .shu-right .xia .yidu .z5 {
+  font-size: 0.17rem;
+  color: #ccc;
+  float: left;
+}
+
+.read .down .shu .shu-right .xia .yidu .z6 {
+  float: left;
+  font-size: 0.15rem;
+  color: #57c8ef;
+}
+
+.read .down .shu .shu-right .xia .yidu .jdt {
+  float: left;
+  width: 1.5rem;
+  height: 0.08rem;
+  background: #d4d4d4;
+  border-radius: 10px;
+  margin-top: 0.12rem;
+  left: 0.1rem;
+}
+
+.read .down .shu .shu-right .xia .yidu .jdt .jdt2 {
+  width: 0.5rem;
+  height: 0.07rem;
+  background: #94d1e6;
+  border-radius: 10px;
+}
+
+.read .down .shu .shu-right .xia .jxyd {
+  width: 1.54rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url(img/an1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.read .down .shu2 {
+  margin-top: 0.1rem;
+}
+
+#footer-two {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #151c2b;
+  margin-top: 0.1rem;
+}
+
+#footer-two .bookrack {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f12.png);
+  background-size: cover;
+  display: block;
+  float: left;
+  border-right: 1px solid #717171;
+}
+
+#footer-two .bookrack span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #fff;
+}
+
+#footer-two .bookCity {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f1.png);
+  background-size: cover;
+  float: left;
+  display: block;
+}
+
+#footer-two .bookCity span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-two .personage {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f3.png);
+  background-size: cover;
+  float: left;
+  border-left: 1px solid #717171;
+  display: block;
+}
+
+#footer-two .personage span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}

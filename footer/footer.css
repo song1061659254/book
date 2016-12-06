@@ -1,0 +1,293 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*蓝色：$maincolor*/
+#footer-one {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #151c2b;
+}
+
+#footer-one .bookrack {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f2.png);
+  background-size: cover;
+  display: block;
+  float: left;
+  border-right: 1px solid #717171;
+}
+
+#footer-one .bookrack span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-one .bookCity {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f11.png);
+  background-size: cover;
+  float: left;
+  display: block;
+}
+
+#footer-one .bookCity span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #fff;
+}
+
+#footer-one .personage {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f3.png);
+  background-size: cover;
+  float: left;
+  border-left: 1px solid #717171;
+  display: block;
+}
+
+#footer-one .personage span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-two {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #151c2b;
+}
+
+#footer-two .bookrack {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f12.png);
+  background-size: cover;
+  display: block;
+  float: left;
+  border-right: 1px solid #717171;
+}
+
+#footer-two .bookrack span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #fff;
+}
+
+#footer-two .bookCity {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f1.png);
+  background-size: cover;
+  float: left;
+  display: block;
+}
+
+#footer-two .bookCity span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-two .personage {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f3.png);
+  background-size: cover;
+  float: left;
+  border-left: 1px solid #717171;
+  display: block;
+}
+
+#footer-two .personage span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-three {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #151c2b;
+}
+
+#footer-three .bookrack {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f2.png);
+  background-size: cover;
+  display: block;
+  float: left;
+  border-right: 1px solid #717171;
+}
+
+#footer-three .bookrack span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-three .bookCity {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f1.png);
+  background-size: cover;
+  float: left;
+  display: block;
+}
+
+#footer-three .bookCity span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #646567;
+}
+
+#footer-three .personage {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f13.png);
+  background-size: cover;
+  float: left;
+  border-left: 1px solid #717171;
+  display: block;
+}
+
+#footer-three .personage span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #fff;
+}

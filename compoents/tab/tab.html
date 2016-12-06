@@ -1,0 +1,64 @@
+<div >
+	<style type="text/css">
+<<<<<<< HEAD
+=======
+		#tab-xuan{
+	
+		}
+>>>>>>> 4e586e408e55c17d15627dc4908deb894a0bc5de
+		#tab-xuan .tab-head{
+			width: 100%;
+			height: 1rem;
+			border: 1px solid red;
+			}
+		#tab-xuan .tab-head	li{
+					float: left;
+					margin-left: 0.2rem;
+					width: 1rem;
+					height: 100%;
+					background: tan;
+				}	
+		#tab-xuan .con{
+			width: 100%;
+			height: 4rem;
+			/*background: #00BFFF;*/
+			
+			}
+
+		#tab-xuan .con li{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width:100% ;
+				height: 4rem;
+				background: yellow;
+				display: none;
+				text-align: center;
+				line-height: 4rem;
+				font-size: 0.4rem;
+				color: #fff;
+			}
+			#tab-xuan .con .active{
+				display: block;
+			}
+			/*轮播*/
+			#tab-xuan .lunbo{
+				width: 6rem;
+				height: 4rem;
+				background: red;
+			}
+	</style>
+	<div id="tab-xuan">
+		<ul class="tab-head">
+			<li  class="heah-eve" ng-repeat="v in content track by $index">{{v}}</li>
+		</ul>
+		<ul class="con">
+			<li ng-class="{active:$index===0}" class="con-eve" ng-repeat="v in con track by $index">{{v}}</li>
+			
+		</ul>
+		<ul class="lunbo"></ul>
+		</div>
+		
+		
+	
+</div>

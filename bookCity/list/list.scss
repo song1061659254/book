@@ -1,0 +1,318 @@
+@import "../../base";
+
+
+#list{
+    #header-nine{
+   
+        width: 100%;
+        height: 1rem;
+        display: block;
+        background:$maincolor;   
+        .navigation{
+            width: 5.7rem;
+            height: 0.8rem;
+            @include center;
+            background: #2a3441;
+            border-radius: 0.5rem;
+            background: url(img/002.png);
+            background-size: cover;
+            .topLeft{
+                float: left;
+                margin:0.04rem 0.12rem;
+                width: 1.65rem;
+                height: 0.7rem;
+                border-radius: 0.05rem;
+    //          background: url(img/x1.png);
+                background: none;
+                background-size: cover;
+                overflow: hidden;
+                font-size: 0.1rem;
+                .ch{
+                    font-size: 0.25rem;
+                    color: #FFFFFF;
+                    @include level;
+                    top: 0.15rem;
+                    display: block;
+                    width: 100%;
+                    height: 0.25rem;
+                    text-align: center;
+                    line-height: 0.25rem;
+                    letter-spacing: 0.03rem;
+                }
+                .en{
+                   
+                    color: #91c8e4;
+                    @include level;
+                    bottom: 0.15rem;
+                    display: block;
+                    width: 100%;
+                    height: 0.1rem;
+                    text-align: center;
+                    line-height: 0.1rem;
+                     font-size: 0.1rem;
+    //              letter-spacing: 0.03rem;
+                }
+                
+            }
+            .topCenter{
+                float: left;
+                margin:0.04rem 0.12rem;
+                width: 1.65rem;
+                height: 0.7rem;
+                border-radius: 0.05rem;
+    //          background: url(img/x1.png);
+                background: none;
+                background-size: cover;
+                overflow: hidden;
+                .ch{
+                    font-size: 0.25rem;
+                    color: #FFFFFF;
+                    @include level;
+                    top: 0.15rem;
+                    display: block;
+                    width: 100%;
+                    height: 0.25rem;
+                    text-align: center;
+                    line-height: 0.25rem;
+                    letter-spacing: 0.03rem;
+                }
+                .en{
+                   
+                    color: #91c8e4;
+                    @include level;
+                    bottom: 0.15rem;
+                    display: block;
+                    width: 100%;
+                    height: 0.1rem;
+                    text-align: center;
+                    line-height: 0.1rem;
+                     font-size: 0.1rem;
+    //              letter-spacing: 0.03rem;
+                }
+            }
+            .topRight{
+                float: left;
+                margin:0.04rem 0.12rem;
+                width: 1.65rem;
+                height: 0.7rem;
+                border-radius: 0.05rem;
+                background: url(img/x1.png);
+                background-size: cover;
+                overflow: hidden;
+                .ch{
+                    font-size: 0.25rem;
+                    color: #FFFFFF;
+                    @include level;
+                    top: 0.15rem;
+                    display: block;
+                    width: 100%;
+                    height: 0.25rem;
+                    text-align: center;
+                    line-height: 0.25rem;
+                    letter-spacing: 0.03rem;
+                }
+                .en{
+                   
+                    color: #91c8e4;
+                    @include level;
+                    bottom: 0.15rem;
+                    display: block;
+                    width: 100%;
+                    height: 0.1rem;
+                    text-align: center;
+                    line-height: 0.1rem;
+                     font-size: 0.1rem;
+    //              letter-spacing: 0.03rem;
+                }
+            }
+            
+            
+            
+        }
+       
+       
+    
+        .headerRight{
+            position: absolute;
+            @include vertical;
+            right: 0.2rem;
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background: url(img/6.png);
+            background-size: cover;
+            overflow: hidden;
+        } 
+    }
+    
+    
+    .matter{
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+        .letter{
+            height: 0.6rem;
+            width: 100%;
+            background: #ace1f8;
+            box-shadow: 0 0 0.3rem #999;
+            .tupian{
+                width: 0.4rem;
+                height: 0.34rem;
+                 background: url(img/book2.png);
+                 background-size: cover;
+                 overflow: hidden;
+                 @include vertical;
+                 left: 0.38rem;
+            }
+            .wlwx{
+                width: auto;
+                height: 0.2rem;
+                font-size: 0.2rem;
+                @include vertical;
+                left: 0.85rem;
+                color: #000;
+                text-align: left;
+            }
+        }
+        .lis{
+            width: 100%;
+            height: auto;
+            display:block;
+            padding: 0 0.3rem;
+            margin-top: 0.15rem;
+            float: left;
+            .title{
+                width: 100%;
+                height: 0.5rem;
+                font-size: 0.2rem;
+                line-height: 0.5rem;
+                color: #29a5db;
+                font-weight: bold;
+                border-bottom: 1px dashed #dddddd;
+            }
+            .this{
+                width: 33.3%;
+                height: 1.2rem;
+                margin-bottom: 0.2rem;
+                box-shadow: 0 0.3rem 0.3rem #999;
+                float: left;
+                .lei{
+                    @include level;
+                    bottom: 0;
+                    width: 2.03rem;
+                    height: 0.88rem;
+                    background: url(img/sc9.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    font-size: 0.35rem;
+                    line-height: 0.88rem;
+                    text-align: center;
+                    color: #fff;
+                }
+                
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #footer-one{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1rem;
+        display: block;
+        background:#151c2b;  
+        z-index: 100;   
+        .bookrack{
+            width: 33.3%;
+            height: 100%;
+            background: url(img/f2.png);
+            background-size: cover;
+            display: block;
+            float: left;
+            border-right: 1px solid #717171;
+            span{
+                @include level;
+                bottom: 0;
+                width: 100%;
+                height: 0.4rem;
+                text-align: center;
+                line-height: 0.4rem;
+                font-size: 0.25rem;
+                color: #646567;
+            }
+        }
+        .bookCity{
+            width: 33.3%;
+            height: 100%;
+            background: url(img/f11.png);
+            background-size: cover;
+            float: left;
+            display: block;
+            span{
+                @include level;
+                bottom: 0;
+                width: 100%;
+                height: 0.4rem;
+                text-align: center;
+                line-height: 0.4rem;
+                font-size: 0.25rem;
+                color: #fff;
+            }
+        }
+        .personage{
+            width: 33.3%;
+            height: 100%;
+            background: url(img/f3.png);
+            background-size: cover;
+            float: left;
+            border-left: 1px solid #717171;
+            display: block;
+            span{
+                @include level;
+                bottom: 0;
+                width: 100%;
+                height: 0.4rem;
+                text-align: center;
+                line-height: 0.4rem;
+                font-size: 0.25rem;
+                color: #646567;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+}
+
+
+
